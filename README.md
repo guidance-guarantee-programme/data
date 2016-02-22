@@ -18,6 +18,13 @@ Clone the repository:
 $ git clone https://github.com/guidance-guarantee-programme/data.git
 ```
 
+Setup the application:
+
+```sh
+$ ./bin/setup
+```
+
+
 [bundler]: http://bundler.io
 [git]: https://git-scm.com
 [pension wise]: https://www.pensionwise.gov.uk
