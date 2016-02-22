@@ -54,3 +54,9 @@ rescue LoadError
   end
 
 end unless ARGV.any? { |a| a =~ /^gems/ } # Don't load anything when running the gems:* tasks
+
+begin
+  require 'rubocop/rake_task'
+  RuboCop::RakeTask.new(:default)
+rescue LoadError
+end
