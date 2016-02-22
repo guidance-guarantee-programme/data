@@ -11,4 +11,5 @@ end
 group :test do
   gem 'cucumber'
   gem 'rubocop'
+  gem 'travis'
 end

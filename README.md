@@ -1,5 +1,7 @@
 # Data
 
+[![Build Status](https://travis-ci.org/guidance-guarantee-programme/data.svg)](https://travis-ci.org/guidance-guarantee-programme/data)
+
 Reporting and data analysis for [Pension Wise].
 
 
