@@ -17,3 +17,8 @@ Feature: Extract booking data
   Scenario: Isolating the changed data to allow selective processing
     When the booking data is a mix of new and already extracted data
     Then only the changed booking data is extracted
+
+  @wip
+  Scenario: Capturing all changes made to booking data
+    When booking data has changed since it was previously extracted
+    Then the changed booking data is extracted
