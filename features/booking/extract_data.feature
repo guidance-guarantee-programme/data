@@ -16,9 +16,7 @@ Feature: Extract booking data
 
   @wip
   Scenario: Isolating the changed data to allow selective processing
-    Given the booking system contains booking data
-    And existing data has been extracted from the booking api
-    When a list of bookings is requested from the booking api
+    When the booking data is a mix of new and already extracted data
     Then only the changed booking data is extracted
 
   @wip
