@@ -22,3 +22,6 @@ Feature: Extract booking data
   Scenario: Capturing all changes made to booking data
     When booking data has changed since it was previously extracted
     Then the changed booking data is extracted
+
+  @wip
+  Scenario: Tag changed data to distinguish corrections from updates
