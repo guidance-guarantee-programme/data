@@ -26,3 +26,6 @@ Feature: Extract booking data
 
   @wip
   Scenario: Tag changed data to distinguish corrections from updates
+
+  @wip
+  Scenario: Support compliance tracking with additional metadata
