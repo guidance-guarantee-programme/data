@@ -7,3 +7,9 @@ Feature: Extract booking data
     Given the booking system contains booking data
     When a list of bookings is requested from the booking api
     Then a list of bookings is extracted from the booking api
+
+  @wip
+  Scenario: Data is written to disk before any restructuring takes place
+    Given the booking system contains booking data
+    When a list of bookings is requested from the booking api
+    Then a list of booking is persisted to disk
