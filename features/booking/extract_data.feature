@@ -13,3 +13,10 @@ Feature: Extract booking data
     Given the booking system contains booking data
     When a list of bookings is requested from the booking api
     Then a list of booking is persisted to disk
+
+  @wip
+  Scenario: Isolating the changed data to allow selective processing
+    Given the booking system contains booking data
+    And existing data has already been extracted from the booking api
+    When a list of bookings is requested from the booking api
+    Then only the changed booking data is extracted
