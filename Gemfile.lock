@@ -5,6 +5,10 @@ GEM
     ast (2.2.0)
     backports (3.6.8)
     builder (3.2.2)
+    byebug (8.2.2)
+    coderay (1.1.0)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
     cucumber (2.3.2)
       builder (>= 2.1.2)
       cucumber-core (~> 1.4.0)
@@ -32,10 +36,12 @@ GEM
       net-http-persistent (>= 2.7)
       net-http-pipeline
     gherkin (3.2.0)
+    hashdiff (0.2.3)
     highline (1.7.8)
     json (1.8.3)
     launchy (2.4.3)
       addressable (~> 2.3)
+    method_source (0.8.2)
     multi_json (1.11.2)
     multi_test (0.1.2)
     multipart-post (2.0.0)
@@ -44,11 +50,31 @@ GEM
     parser (2.3.0.2)
       ast (~> 2.2)
     powerpack (0.1.1)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.3.0)
+      byebug (~> 8.0)
+      pry (~> 0.10)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
     rainbow (2.1.0)
     rake (10.5.0)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.2)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
     rubocop (0.37.0)
       parser (>= 2.3.0.2, < 3.0)
       powerpack (~> 0.1)
@@ -56,6 +82,8 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 0.3)
     ruby-progressbar (1.7.5)
+    safe_yaml (1.0.4)
+    slop (3.6.0)
     travis (1.8.2)
       backports
       faraday (~> 0.9)
@@ -68,6 +96,11 @@ GEM
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
     unicode-display_width (0.3.1)
+    vcr (3.0.1)
+    webmock (1.22.6)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
     websocket (1.2.2)
 
 PLATFORMS
@@ -75,9 +108,14 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber
+  faraday
+  pry-byebug
   rake
+  rspec
   rubocop
   travis
+  vcr
+  webmock
 
 BUNDLED WITH
    1.11.2

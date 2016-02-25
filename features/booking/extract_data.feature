@@ -2,7 +2,7 @@ Feature: Extract booking data
   In order to know how many bookings Pension Wise have made
   The booking manager will need booking data extracted from the booking system
 
-  @wip
+  @vcr
   Scenario: Data is extracted from the booking system api
     Given the booking system contains booking data
     When a list of bookings is requested from the booking api
