@@ -9,6 +9,7 @@ Reporting and data analysis for [Pension Wise].
 
 * [Bundler]
 * [Git]
+* [PostgreSQL]
 * [Ruby 2.3.0][Ruby]
 
 
@@ -30,4 +31,5 @@ $ ./bin/setup
 [bundler]: http://bundler.io
 [git]: https://git-scm.com
 [pension wise]: https://www.pensionwise.gov.uk
+[postgresql]: http://postgresql.org
 [ruby]: https://www.ruby-lang.org
