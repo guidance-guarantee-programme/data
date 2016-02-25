@@ -1,0 +1,1004 @@
+[
+  {
+    "id": 4006,
+    "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+    "person_name": "Shift 1 A",
+    "service_name": "Pensionwise Callback",
+    "member_id": 2278,
+    "client_name": "Aman Singh",
+    "client_email": "aman@singh.com",
+    "client_phone": "+44 (0)7777777777",
+    "client_mobile": "+44 (0)7777 777777",
+    "service_id": 48326,
+    "datetime": "2016-03-17T08:30:00+00:00",
+    "duration": 70,
+    "on_waitlist": false,
+    "company_id": 37004,
+    "attended": true,
+    "booking_updated": "2016-02-17 16:24:16",
+    "updated_at": "2016-02-17 16:24:16",
+    "created_at": "2016-02-17 16:24:16",
+    "client_id": 2278,
+    "person_id": 15289,
+    "price": 0,
+    "paid": 0,
+    "quantity": 1,
+    "is_cancelled": false,
+    "multi_status": {},
+    "purchase_id": 3926,
+    "purchase_ref": "ofWgbFJRlYQmK_SUMzkyNg%3D%3D",
+    "notes": {
+      "public": [],
+      "private": [
+        {
+          "id": 1146,
+          "note": "Opt out?"
+        }
+      ]
+    },
+    "channel": "Administrator",
+    "status": 4,
+    "_embedded": {
+      "client": {
+        "first_name": "Aman",
+        "last_name": "Singh",
+        "email": "aman@singh.com",
+        "country": "United Kingdom",
+        "phone": "7777777777",
+        "mobile": "7777777777",
+        "id": 2278,
+        "member_type": 2,
+        "files": [],
+        "answers": [
+          {
+            "question_id": 1,
+            "name": "Memorable Word",
+            "answer": "sugar"
+          }
+        ],
+        "deleted": false,
+        "phone_prefix": "44",
+        "mobile_prefix": "44",
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2278"
+          },
+          "bookings": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2278/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+            "templated": true
+          },
+          "pre_paid_bookings": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2278/pre_paid_bookings{?start_date,end_date,page,per_page}",
+            "templated": true
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+          }
+        }
+      },
+      "answers": [
+        {
+          "id": 3305,
+          "price": "0.0",
+          "question_id": 4,
+          "admin_only": true,
+          "important": false,
+          "_embedded": {
+            "question": {
+              "id": 4,
+              "name": "Booking status",
+              "required": false,
+              "important": false,
+              "admin_only": true,
+              "applies_to": 0,
+              "ask_member": true,
+              "detail_type": "select",
+              "options": [
+                {
+                  "name": "No show",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 1
+                },
+                {
+                  "name": "Ineligible",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 4
+                },
+                {
+                  "name": "Incomplete",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 2
+                },
+                {
+                  "name": "Complete",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 3
+                }
+              ],
+              "settings": {},
+              "price": 0,
+              "price_per_booking": false,
+              "outcome": false,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          },
+          "question_text": "Booking status",
+          "outcome": false,
+          "company_id": 37000,
+          "_links": {
+            "self": {
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3305"
+            },
+            "question": {
+              "title": "Booking status",
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+            }
+          }
+        }
+      ]
+    },
+    "slot_id": 13399,
+    "settings": {
+      "resource": -1,
+      "person": -1,
+      "earliest_time": "2016-03-02T08:00:00.000Z"
+    },
+    "slot_settings": {},
+    "_links": {
+      "self": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4006"
+      },
+      "client": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2278"
+      },
+      "check_in": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4006/check_in"
+      },
+      "questions": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+      }
+    }
+  },
+  {
+    "id": 4008,
+    "full_describe": "Pensionwise Callback with Lynette Conway at Pensions Service Primary",
+    "person_name": "Lynette Conway",
+    "service_name": "Pensionwise Callback",
+    "member_id": 2279,
+    "client_name": "David Henry",
+    "client_email": "poo-bear@yahoo.com.ai",
+    "client_phone": "",
+    "client_mobile": "+44 (0)7879 000000",
+    "service_id": 48326,
+    "datetime": "2016-02-23T09:30:00+00:00",
+    "duration": 70,
+    "on_waitlist": false,
+    "company_id": 37004,
+    "attended": true,
+    "booking_updated": "2016-02-23 09:03:16",
+    "updated_at": "2016-02-23 09:03:16",
+    "created_at": "2016-02-22 14:06:51",
+    "client_id": 2279,
+    "person_id": 15398,
+    "price": 0,
+    "paid": 0,
+    "quantity": 1,
+    "is_cancelled": false,
+    "multi_status": {},
+    "purchase_id": 3928,
+    "purchase_ref": "hk_P4LcGQ7tdFQbSMzkyOA%3D%3D",
+    "notes": {
+      "public": [],
+      "private": []
+    },
+    "channel": "Administrator",
+    "status": 4,
+    "_embedded": {
+      "client": {
+        "first_name": "David",
+        "last_name": "Henry",
+        "email": "poo-bear@yahoo.com.ai",
+        "address1": "40, Emlyn Road",
+        "address2": "",
+        "address4": "Redhill",
+        "address5": "SURREY",
+        "postcode": "RH1 6EW",
+        "country": "United Kingdom",
+        "mobile": "7879000000",
+        "id": 2279,
+        "member_type": 2,
+        "files": [],
+        "answers": [
+          {
+            "question_id": 1,
+            "name": "Memorable Word",
+            "answer": "wordsworth"
+          }
+        ],
+        "deleted": false,
+        "phone_prefix": "44",
+        "mobile_prefix": "44",
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2279"
+          },
+          "bookings": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2279/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+            "templated": true
+          },
+          "pre_paid_bookings": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2279/pre_paid_bookings{?start_date,end_date,page,per_page}",
+            "templated": true
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+          }
+        }
+      },
+      "answers": [
+        {
+          "id": 3308,
+          "value": "",
+          "price": "0.0",
+          "question_id": 4,
+          "admin_only": true,
+          "important": false,
+          "_embedded": {
+            "question": {
+              "id": 4,
+              "name": "Booking status",
+              "required": false,
+              "important": false,
+              "admin_only": true,
+              "applies_to": 0,
+              "ask_member": true,
+              "detail_type": "select",
+              "options": [
+                {
+                  "name": "No show",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 1
+                },
+                {
+                  "name": "Ineligible",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 4
+                },
+                {
+                  "name": "Incomplete",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 2
+                },
+                {
+                  "name": "Complete",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 3
+                }
+              ],
+              "settings": {},
+              "price": 0,
+              "price_per_booking": false,
+              "outcome": false,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          },
+          "question_text": "Booking status",
+          "outcome": false,
+          "company_id": 37000,
+          "_links": {
+            "self": {
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3308"
+            },
+            "question": {
+              "title": "Booking status",
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+            }
+          }
+        },
+        {
+          "id": 3309,
+          "value": "",
+          "price": "0.0",
+          "question_id": 5,
+          "admin_only": false,
+          "important": false,
+          "_embedded": {
+            "question": {
+              "id": 5,
+              "name": "Are you willing to be contacted by a third party?",
+              "required": false,
+              "important": false,
+              "admin_only": false,
+              "applies_to": 0,
+              "ask_member": true,
+              "detail_type": "select",
+              "options": [
+                {
+                  "name": "Yes ",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 5
+                },
+                {
+                  "name": "No",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 6
+                }
+              ],
+              "settings": {},
+              "price": 0,
+              "price_per_booking": false,
+              "outcome": false,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+                }
+              }
+            }
+          },
+          "question_text": "Are you willing to be contacted by a third party?",
+          "outcome": false,
+          "company_id": 37000,
+          "_links": {
+            "self": {
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3309"
+            },
+            "question": {
+              "title": "Are you willing to be contacted by a third party?",
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+            }
+          }
+        },
+        {
+          "id": 3310,
+          "value": "",
+          "price": "0.0",
+          "question_id": 6,
+          "admin_only": false,
+          "important": false,
+          "_embedded": {
+            "question": {
+              "id": 6,
+              "name": "Are you aged 50-54?",
+              "required": false,
+              "important": false,
+              "admin_only": false,
+              "applies_to": 0,
+              "ask_member": true,
+              "detail_type": "select",
+              "options": [
+                {
+                  "name": "Yes",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 7
+                },
+                {
+                  "name": "No",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 8
+                }
+              ],
+              "settings": {},
+              "price": 0,
+              "price_per_booking": false,
+              "outcome": false,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+                }
+              }
+            }
+          },
+          "question_text": "Are you aged 50-54?",
+          "outcome": false,
+          "company_id": 37000,
+          "_links": {
+            "self": {
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3310"
+            },
+            "question": {
+              "title": "Are you aged 50-54?",
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+            }
+          }
+        }
+      ]
+    },
+    "slot_id": 13401,
+    "settings": {
+      "sent_email_reminder": 1
+    },
+    "slot_settings": {},
+    "_links": {
+      "self": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4008"
+      },
+      "client": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2279"
+      },
+      "check_in": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4008/check_in"
+      },
+      "questions": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+      }
+    }
+  },
+  {
+    "id": 4009,
+    "full_describe": "Pensionwise Callback with Steve Edmonds at Pensions Service Primary",
+    "person_name": "Steve Edmonds",
+    "service_name": "Pensionwise Callback",
+    "member_id": 2280,
+    "client_name": "Matt Lucht",
+    "client_email": "mattlucht@gmail.com",
+    "client_phone": "+44 (0)7766491836",
+    "client_mobile": "",
+    "service_id": 48326,
+    "datetime": "2016-03-11T08:20:00+00:00",
+    "duration": 70,
+    "on_waitlist": false,
+    "company_id": 37004,
+    "attended": true,
+    "booking_updated": "2016-02-22 14:19:48",
+    "updated_at": "2016-02-22 14:19:48",
+    "created_at": "2016-02-22 14:19:48",
+    "client_id": 2280,
+    "person_id": 15395,
+    "price": 0,
+    "paid": 0,
+    "quantity": 1,
+    "is_cancelled": false,
+    "multi_status": {},
+    "purchase_id": 3929,
+    "purchase_ref": "MYf8FXeMSQqCCOOcMzkyOQ%3D%3D",
+    "notes": {
+      "public": [],
+      "private": []
+    },
+    "channel": "Administrator",
+    "status": 4,
+    "_embedded": {
+      "client": {
+        "first_name": "Matt",
+        "last_name": "Lucht",
+        "email": "mattlucht@gmail.com",
+        "address1": "24 Hadley Street",
+        "address2": "London",
+        "address4": "London",
+        "postcode": "NW1 8SS",
+        "country": "United Kingdom",
+        "phone": "7766491836",
+        "id": 2280,
+        "member_type": 2,
+        "files": [],
+        "answers": [
+          {
+            "question_id": 1,
+            "name": "Memorable Word",
+            "answer": "pensions"
+          }
+        ],
+        "deleted": false,
+        "phone_prefix": "44",
+        "mobile_prefix": "44",
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2280"
+          },
+          "bookings": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2280/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+            "templated": true
+          },
+          "pre_paid_bookings": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2280/pre_paid_bookings{?start_date,end_date,page,per_page}",
+            "templated": true
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+          }
+        }
+      },
+      "answers": [
+        {
+          "id": 3312,
+          "value": "Yes ",
+          "price": "0.0",
+          "question_id": 5,
+          "admin_only": false,
+          "important": false,
+          "_embedded": {
+            "question": {
+              "id": 5,
+              "name": "Are you willing to be contacted by a third party?",
+              "required": false,
+              "important": false,
+              "admin_only": false,
+              "applies_to": 0,
+              "ask_member": true,
+              "detail_type": "select",
+              "options": [
+                {
+                  "name": "Yes ",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 5
+                },
+                {
+                  "name": "No",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 6
+                }
+              ],
+              "settings": {},
+              "price": 0,
+              "price_per_booking": false,
+              "outcome": false,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+                }
+              }
+            }
+          },
+          "question_text": "Are you willing to be contacted by a third party?",
+          "outcome": false,
+          "company_id": 37000,
+          "_links": {
+            "self": {
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3312"
+            },
+            "question": {
+              "title": "Are you willing to be contacted by a third party?",
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+            }
+          }
+        },
+        {
+          "id": 3313,
+          "value": "Yes",
+          "price": "0.0",
+          "question_id": 6,
+          "admin_only": false,
+          "important": false,
+          "_embedded": {
+            "question": {
+              "id": 6,
+              "name": "Are you aged 50-54?",
+              "required": false,
+              "important": false,
+              "admin_only": false,
+              "applies_to": 0,
+              "ask_member": true,
+              "detail_type": "select",
+              "options": [
+                {
+                  "name": "Yes",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 7
+                },
+                {
+                  "name": "No",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 8
+                }
+              ],
+              "settings": {},
+              "price": 0,
+              "price_per_booking": false,
+              "outcome": false,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+                }
+              }
+            }
+          },
+          "question_text": "Are you aged 50-54?",
+          "outcome": false,
+          "company_id": 37000,
+          "_links": {
+            "self": {
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3313"
+            },
+            "question": {
+              "title": "Are you aged 50-54?",
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+            }
+          }
+        },
+        {
+          "id": 3314,
+          "price": "0.0",
+          "question_id": 4,
+          "admin_only": true,
+          "important": false,
+          "_embedded": {
+            "question": {
+              "id": 4,
+              "name": "Booking status",
+              "required": false,
+              "important": false,
+              "admin_only": true,
+              "applies_to": 0,
+              "ask_member": true,
+              "detail_type": "select",
+              "options": [
+                {
+                  "name": "No show",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 1
+                },
+                {
+                  "name": "Ineligible",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 4
+                },
+                {
+                  "name": "Incomplete",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 2
+                },
+                {
+                  "name": "Complete",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 3
+                }
+              ],
+              "settings": {},
+              "price": 0,
+              "price_per_booking": false,
+              "outcome": false,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          },
+          "question_text": "Booking status",
+          "outcome": false,
+          "company_id": 37000,
+          "_links": {
+            "self": {
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3314"
+            },
+            "question": {
+              "title": "Booking status",
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+            }
+          }
+        }
+      ]
+    },
+    "slot_id": 13405,
+    "settings": {
+      "resource": -1,
+      "person": -1,
+      "earliest_time": "2016-03-07T07:50:00.000Z"
+    },
+    "slot_settings": {},
+    "_links": {
+      "self": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4009"
+      },
+      "client": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2280"
+      },
+      "check_in": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4009/check_in"
+      },
+      "questions": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+      }
+    }
+  },
+  {
+    "id": 4010,
+    "full_describe": "Pensionwise Callback with John Shearer at Pensions Service Primary",
+    "person_name": "John Shearer",
+    "service_name": "Pensionwise Callback",
+    "member_id": 2281,
+    "client_name": "Dave Honry",
+    "client_email": "dw_henry@yahoo.com.au",
+    "client_phone": "",
+    "client_mobile": "+44 (0)7989 778767",
+    "service_id": 48326,
+    "datetime": "2016-02-24T09:30:00+00:00",
+    "duration": 70,
+    "on_waitlist": false,
+    "company_id": 37004,
+    "attended": true,
+    "booking_updated": "2016-02-25 10:38:15",
+    "updated_at": "2016-02-25 10:38:15",
+    "created_at": "2016-02-22 14:21:47",
+    "client_id": 2281,
+    "person_id": 15368,
+    "price": 0,
+    "paid": 0,
+    "quantity": 1,
+    "is_cancelled": false,
+    "multi_status": {},
+    "purchase_id": 3930,
+    "purchase_ref": "rzXLybEeWroMOXEDMzkzMA%3D%3D",
+    "notes": {
+      "public": [],
+      "private": [
+        {
+          "id": 1148,
+          "note": ""
+        }
+      ]
+    },
+    "channel": "Administrator",
+    "status": 4,
+    "_embedded": {
+      "client": {
+        "first_name": "Dave",
+        "last_name": "Honry",
+        "email": "dw_henry@yahoo.com.au",
+        "address1": "Flat 3",
+        "address2": "76 Tulse Hill",
+        "address4": "London",
+        "address5": "",
+        "postcode": "SW2 2PU",
+        "country": "United Kingdom",
+        "mobile": "7989778767",
+        "id": 2281,
+        "member_type": 2,
+        "files": [],
+        "answers": [
+          {
+            "question_id": 1,
+            "name": "Memorable Word",
+            "answer": "flat"
+          }
+        ],
+        "deleted": false,
+        "phone_prefix": "44",
+        "mobile_prefix": "44",
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2281"
+          },
+          "bookings": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2281/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+            "templated": true
+          },
+          "pre_paid_bookings": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2281/pre_paid_bookings{?start_date,end_date,page,per_page}",
+            "templated": true
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+          }
+        }
+      },
+      "answers": [
+        {
+          "id": 3316,
+          "value": "Incomplete",
+          "price": "0.0",
+          "question_id": 4,
+          "admin_only": true,
+          "important": false,
+          "_embedded": {
+            "question": {
+              "id": 4,
+              "name": "Booking status",
+              "required": false,
+              "important": false,
+              "admin_only": true,
+              "applies_to": 0,
+              "ask_member": true,
+              "detail_type": "select",
+              "options": [
+                {
+                  "name": "No show",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 1
+                },
+                {
+                  "name": "Ineligible",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 4
+                },
+                {
+                  "name": "Incomplete",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 2
+                },
+                {
+                  "name": "Complete",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 3
+                }
+              ],
+              "settings": {},
+              "price": 0,
+              "price_per_booking": false,
+              "outcome": false,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          },
+          "question_text": "Booking status",
+          "outcome": false,
+          "company_id": 37000,
+          "_links": {
+            "self": {
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3316"
+            },
+            "question": {
+              "title": "Booking status",
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+            }
+          }
+        },
+        {
+          "id": 3317,
+          "value": "Yes ",
+          "price": "0.0",
+          "question_id": 5,
+          "admin_only": false,
+          "important": false,
+          "_embedded": {
+            "question": {
+              "id": 5,
+              "name": "Are you willing to be contacted by a third party?",
+              "required": false,
+              "important": false,
+              "admin_only": false,
+              "applies_to": 0,
+              "ask_member": true,
+              "detail_type": "select",
+              "options": [
+                {
+                  "name": "Yes ",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 5
+                },
+                {
+                  "name": "No",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 6
+                }
+              ],
+              "settings": {},
+              "price": 0,
+              "price_per_booking": false,
+              "outcome": false,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+                }
+              }
+            }
+          },
+          "question_text": "Are you willing to be contacted by a third party?",
+          "outcome": false,
+          "company_id": 37000,
+          "_links": {
+            "self": {
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3317"
+            },
+            "question": {
+              "title": "Are you willing to be contacted by a third party?",
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+            }
+          }
+        },
+        {
+          "id": 3318,
+          "value": "Yes",
+          "price": "0.0",
+          "question_id": 6,
+          "admin_only": false,
+          "important": false,
+          "_embedded": {
+            "question": {
+              "id": 6,
+              "name": "Are you aged 50-54?",
+              "required": false,
+              "important": false,
+              "admin_only": false,
+              "applies_to": 0,
+              "ask_member": true,
+              "detail_type": "select",
+              "options": [
+                {
+                  "name": "Yes",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 7
+                },
+                {
+                  "name": "No",
+                  "price": 0,
+                  "is_default": false,
+                  "id": 8
+                }
+              ],
+              "settings": {},
+              "price": 0,
+              "price_per_booking": false,
+              "outcome": false,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+                }
+              }
+            }
+          },
+          "question_text": "Are you aged 50-54?",
+          "outcome": false,
+          "company_id": 37000,
+          "_links": {
+            "self": {
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3318"
+            },
+            "question": {
+              "title": "Are you aged 50-54?",
+              "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+            }
+          }
+        }
+      ]
+    },
+    "slot_id": 13406,
+    "settings": {
+      "sent_email_reminder": 1,
+      "obfuscated_id": "Bf222Lax5f4pqehr"
+    },
+    "slot_settings": {},
+    "_links": {
+      "self": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4010"
+      },
+      "client": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2281"
+      },
+      "check_in": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4010/check_in"
+      },
+      "questions": {
+        "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+      }
+    }
+  }
+]
