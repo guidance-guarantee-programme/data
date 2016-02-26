@@ -6,10 +6,10 @@ ruby '2.3.0'
 
 group :development do
   gem 'rake'
+  gem 'rubocop', require: false
 end
 
 group :test do
   gem 'cucumber'
-  gem 'rubocop'
   gem 'travis'
 end
