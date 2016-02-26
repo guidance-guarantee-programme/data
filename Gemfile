@@ -7,9 +7,9 @@ ruby '2.3.0'
 group :development do
   gem 'rake'
   gem 'rubocop', require: false
+  gem 'travis', require: false
 end
 
 group :test do
   gem 'cucumber'
-  gem 'travis'
 end
