@@ -8,4 +8,4 @@ Rails.application.load_tasks
 Cucumber::Rake::Task.new
 RuboCop::RakeTask.new
 
-task default: %i(cucumber rubocop)
+task default: %i(spec cucumber rubocop)
