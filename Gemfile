@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.3.0'
 
-# gem "rails"
+gem 'rails', '4.2.5.1'
+gem 'pg', '~> 0.15'
 
 group :development do
   gem 'rake'
@@ -11,5 +12,5 @@ group :development do
 end
 
 group :test do
-  gem 'cucumber'
+  gem 'cucumber-rails', require: false
 end

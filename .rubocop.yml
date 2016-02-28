@@ -1,15 +1,15 @@
 AllCops:
   Exclude:
     - 'bin/*'
-    - 'vendor/**/**'
+    - 'db/**/*'
+    - 'vendor/**/*'
   TargetRubyVersion: 2.3
 
 Documentation:
   Enabled: false
 
-Lint/HandleExceptions:
-  Exclude:
-    - Rakefile
-
 Metrics/LineLength:
   Max: 120
+
+Rails:
+  Enabled: true
