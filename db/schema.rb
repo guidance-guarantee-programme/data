@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160229103046) do
+ActiveRecord::Schema.define(version: 20160229155654) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -41,4 +41,15 @@ ActiveRecord::Schema.define(version: 20160229103046) do
   add_index "dimensions_dates", ["date_name"], name: "index_dimensions_dates_on_date_name", unique: true, using: :btree
   add_index "dimensions_dates", ["date_name_abbreviated"], name: "index_dimensions_dates_on_date_name_abbreviated", unique: true, using: :btree
 
+  create_table "facts_bookings", force: :cascade do |t|
+    t.integer  "dimensions_date_id"
+    t.string   "reference_number"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
+
+  add_index "facts_bookings", ["dimensions_date_id"], name: "index_facts_bookings_on_dimensions_date_id", using: :btree
+  add_index "facts_bookings", ["reference_number"], name: "index_facts_bookings_on_reference_number", unique: true, using: :btree
+
+  add_foreign_key "facts_bookings", "dimensions_dates"
 end
