@@ -1,0 +1,5642 @@
+{
+  "total_entries": 1444,
+  "_embedded": {
+    "bookings": [
+      {
+        "id": 3313,
+        "full_describe": "Pensionwise Callback with Daniel Richiens at Pensions Service Primary",
+        "person_name": "Daniel Richiens",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2130,
+        "client_name": "Dan Druff",
+        "client_email": "Dan.666@gmail.com",
+        "client_phone": "+44 (0)472838338",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-24T13:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-24 12:03:14",
+        "updated_at": "2015-04-24 12:03:14",
+        "created_at": "2015-04-10 11:37:58",
+        "client_id": 2130,
+        "person_id": 15385,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3239,
+        "purchase_ref": "izq6s7QtIQEoGyGuMzIzOQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Dan",
+            "last_name": "Druff",
+            "email": "Dan.666@gmail.com",
+            "country": "United Kingdom",
+            "phone": "472838338",
+            "id": 2130,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Memo"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2130"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2130/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2130/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12382,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T12:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3313"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2130"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3313/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3314,
+        "full_describe": "Pensionwise Callback with Shift 1 K at Pensions Service Primary",
+        "person_name": "Shift 1 K",
+        "service_name": "Pensionwise Callback",
+        "member_id": 1934,
+        "client_name": "Robert Henderson",
+        "client_email": "robert.henderson@googlemail.com",
+        "client_phone": "+44 (0)7852666187",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-27T14:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-27 13:04:39",
+        "updated_at": "2015-04-27 13:04:39",
+        "created_at": "2015-04-10 11:46:29",
+        "client_id": 1934,
+        "person_id": 15396,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3240,
+        "purchase_ref": "rxD-JgxUHVUvvAq_MzI0MA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Robert",
+            "last_name": "Henderson",
+            "email": "robert.henderson@googlemail.com",
+            "country": "United Kingdom",
+            "phone": "7852666187",
+            "id": 1934,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "bongo"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/1934"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/1934/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/1934/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12387,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T12:30:00.000Z",
+          "api_client_ref": null,
+          "api_event_ref": null,
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3314"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/1934"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3314/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3315,
+        "full_describe": "Pensionwise Callback with Shaun Pont at Pensions Service Primary",
+        "person_name": "Shaun Pont",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2131,
+        "client_name": "Marie Harrison",
+        "client_email": "marie.92@hotmail.com",
+        "client_phone": "+44 (0)7472838338",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-24T16:00:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-24 14:03:12",
+        "updated_at": "2015-04-24 14:03:12",
+        "created_at": "2015-04-10 11:48:52",
+        "client_id": 2131,
+        "person_id": 15363,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3241,
+        "purchase_ref": "joXyg_i2TL4j0mWrMzI0MQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Marie",
+            "last_name": "Harrison",
+            "email": "marie.92@hotmail.com",
+            "country": "United Kingdom",
+            "phone": "7472838338",
+            "id": 2131,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "michell"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2131"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2131/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2131/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12391,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T12:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3315"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2131"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3315/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3317,
+        "full_describe": "Pensionwise Callback with Martin Holley at Pensions Service Primary",
+        "person_name": "Martin Holley",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2124,
+        "client_name": "Ali Shah",
+        "client_email": "ali@hotmail.com",
+        "client_phone": "+44 (0)7947430165",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-24T16:00:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-24 14:03:13",
+        "updated_at": "2015-04-24 14:03:13",
+        "created_at": "2015-04-10 11:57:06",
+        "client_id": 2124,
+        "person_id": 15367,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3243,
+        "purchase_ref": "Aweu6231yBfZNY0dMzI0Mw%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Ali",
+            "last_name": "Shah",
+            "email": "ali@hotmail.com",
+            "country": "United Kingdom",
+            "phone": "7947430165",
+            "id": 2124,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "arsenal"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2124"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2124/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2124/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12398,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T12:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3317"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2124"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3317/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3318,
+        "full_describe": "Pensionwise Callback with Shift 1 E at Pensions Service Primary",
+        "person_name": "Shift 1 E",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2133,
+        "client_name": "Michelle Harrison",
+        "client_email": "michelle.92@hotmail.com",
+        "client_phone": "+44 (0)7472838338",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-24T13:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-24 12:03:14",
+        "updated_at": "2015-04-24 12:03:14",
+        "created_at": "2015-04-10 12:03:28",
+        "client_id": 2133,
+        "person_id": 15387,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3244,
+        "purchase_ref": "FK-oeugM35RxrHXDMzI0NA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Michelle",
+            "last_name": "Harrison",
+            "email": "michelle.92@hotmail.com",
+            "country": "United Kingdom",
+            "phone": "7472838338",
+            "id": 2133,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Nemo"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2133"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2133/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2133/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12402,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T12:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3318"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2133"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3318/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3320,
+        "full_describe": "Pensionwise Callback with Jim Nokku at Pensions Service Primary",
+        "person_name": "Jim Nokku",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2135,
+        "client_name": "James Bond",
+        "client_email": "007@hotmail.com",
+        "client_phone": "+44 (0)7007007007",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-24T16:00:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-24 14:03:13",
+        "updated_at": "2015-04-24 14:03:13",
+        "created_at": "2015-04-10 12:17:53",
+        "client_id": 2135,
+        "person_id": 15391,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3246,
+        "purchase_ref": "m8PTjDD_TtJTMOp3MzI0Ng%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "James",
+            "last_name": "Bond",
+            "email": "007@hotmail.com",
+            "country": "United Kingdom",
+            "phone": "7007007007",
+            "id": 2135,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "nice bum"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2135"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2135/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2135/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12410,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T12:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3320"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2135"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3320/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3321,
+        "full_describe": "Pensionwise Callback with Shift 3 B at Pensions Service Primary",
+        "person_name": "Shift 3 B",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2136,
+        "client_name": "Mez Miah",
+        "client_email": "mezmiah@gmail.com",
+        "client_phone": "+44 (0)785757456",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-24T13:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-24 12:03:15",
+        "updated_at": "2015-04-24 12:03:15",
+        "created_at": "2015-04-10 12:33:39",
+        "client_id": 2136,
+        "person_id": 15389,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3247,
+        "purchase_ref": "tHF-k8uEtIX97i35MzI0Nw%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "mez",
+            "last_name": "miah",
+            "email": "mezmiah@gmail.com",
+            "country": "United Kingdom",
+            "phone": "785757456",
+            "id": 2136,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Raju"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2136"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2136/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2136/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12414,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T12:50:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3321"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2136"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3321/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3322,
+        "full_describe": "Pensionwise Callback with Lynette Conway at Pensions Service Primary",
+        "person_name": "Lynette Conway",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2137,
+        "client_name": "Jemma Harris",
+        "client_email": "jemma.1991@hotmail.com",
+        "client_phone": "+44 (0)7472838338",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-24T15:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-24 14:03:13",
+        "updated_at": "2015-04-24 14:03:13",
+        "created_at": "2015-04-10 12:39:11",
+        "client_id": 2137,
+        "person_id": 15398,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3248,
+        "purchase_ref": "tTtNm5UYl3rPJEN_MzI0OA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Jemma",
+            "last_name": "Harris",
+            "email": "jemma.1991@hotmail.com",
+            "country": "United Kingdom",
+            "phone": "7472838338",
+            "id": 2137,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "nemo"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2137"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2137/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2137/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12418,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T12:50:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3322"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2137"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3322/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3323,
+        "full_describe": "Pensionwise Callback with Roy Barrett at Pensions Service Primary",
+        "person_name": "Roy Barrett",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2138,
+        "client_name": "Mez Ahmed",
+        "client_email": "mez@hotmail.com",
+        "client_phone": "+44 (0)7501101444",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-24T16:00:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-24 14:03:14",
+        "updated_at": "2015-04-24 14:03:14",
+        "created_at": "2015-04-10 12:42:41",
+        "client_id": 2138,
+        "person_id": 15390,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3249,
+        "purchase_ref": "Af-8mQjFi2U7PrtdMzI0OQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Mez",
+            "last_name": "Ahmed",
+            "email": "mez@hotmail.com",
+            "country": "United Kingdom",
+            "phone": "7501101444",
+            "id": 2138,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Lyndsay"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2138"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2138/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2138/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12422,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T12:50:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3323"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2138"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3323/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3324,
+        "full_describe": "Pensionwise Callback with Shift 1 B at Pensions Service Primary",
+        "person_name": "Shift 1 B",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2139,
+        "client_name": "Phil McCaviteigh",
+        "client_email": "philinthecracks@gmail.com",
+        "client_phone": "+44 (0)7212389147",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-27T08:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-27 07:03:10",
+        "updated_at": "2015-04-27 07:03:10",
+        "created_at": "2015-04-10 12:54:09",
+        "client_id": 2139,
+        "person_id": 15290,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3250,
+        "purchase_ref": "kVXhagTc-kOKmAj_MzI1MA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Phil",
+            "last_name": "McCaviteigh",
+            "email": "philinthecracks@gmail.com",
+            "country": "United Kingdom",
+            "phone": "7212389147",
+            "id": 2139,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "crak"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2139"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2139/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2139/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12426,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T12:50:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3324"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2139"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3324/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3325,
+        "full_describe": "Pensionwise Callback with Richard Church at Pensions Service Primary",
+        "person_name": "Richard Church",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2140,
+        "client_name": "Johonny Abrahman",
+        "client_email": "johonny@hotmail.com",
+        "client_phone": "+44 (0)+07707876456",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-24T16:00:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-24 14:03:14",
+        "updated_at": "2015-04-24 14:03:14",
+        "created_at": "2015-04-10 13:35:36",
+        "client_id": 2140,
+        "person_id": 15392,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3251,
+        "purchase_ref": "cX-6iblUGJAESghQMzI1MQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "johonny",
+            "last_name": "abrahman",
+            "email": "johonny@hotmail.com",
+            "country": "United Kingdom",
+            "phone": "+07707876456",
+            "id": 2140,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "mistriss"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2140"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2140/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2140/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12430,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T13:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3325"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2140"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3325/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3328,
+        "full_describe": "Pensionwise Callback with Mark Benham at Pensions Service Primary",
+        "person_name": "Mark Benham",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2143,
+        "client_name": "Phill McCaviteigh",
+        "client_email": "Phillintheblanks@gmail.com",
+        "client_phone": "+44 (0)7212389147",
+        "client_mobile": "+44 (0)7212 389147",
+        "service_id": 48326,
+        "datetime": "2015-04-29T12:20:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-29 10:03:10",
+        "updated_at": "2015-04-29 10:03:10",
+        "created_at": "2015-04-10 14:06:59",
+        "client_id": 2143,
+        "person_id": 15369,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3254,
+        "purchase_ref": "LoQDGU_JESaSDTUtMzI1NA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Phill",
+            "last_name": "McCaviteigh",
+            "email": "Phillintheblanks@gmail.com",
+            "country": "United Kingdom",
+            "phone": "7212389147",
+            "mobile": "7212389147",
+            "id": 2143,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Crack"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2143"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2143/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2143/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12442,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-24T14:50:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3328"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2143"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3328/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3329,
+        "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+        "person_name": "Shift 1 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2138,
+        "client_name": "Mez Ahmed",
+        "client_email": "mez@hotmail.com",
+        "client_phone": "+44 (0)7501101444",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-27T09:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-27 08:03:10",
+        "updated_at": "2015-04-27 08:03:10",
+        "created_at": "2015-04-10 15:07:34",
+        "client_id": 2138,
+        "person_id": 15289,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3255,
+        "purchase_ref": "5t-DWyC9DfglFsofMzI1NQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Mez",
+            "last_name": "Ahmed",
+            "email": "mez@hotmail.com",
+            "country": "United Kingdom",
+            "phone": "7501101444",
+            "id": 2138,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Lyndsay"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2138"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2138/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2138/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12447,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-27T07:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3329"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2138"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3329/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3330,
+        "full_describe": "Pensionwise Callback with Steve Edmonds at Pensions Service Primary",
+        "person_name": "Steve Edmonds",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2092,
+        "client_name": "John Smith",
+        "client_email": "Johnsmith99@gmail.com",
+        "client_phone": "+44 (0)7429157638",
+        "client_mobile": "+44 (0)7429 157638",
+        "service_id": 48326,
+        "datetime": "2015-04-27T08:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-27 07:03:10",
+        "updated_at": "2015-04-27 07:03:10",
+        "created_at": "2015-04-10 15:08:25",
+        "client_id": 2092,
+        "person_id": 15395,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3256,
+        "purchase_ref": "UjQQuOhadT9v471fMzI1Ng%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "John",
+            "last_name": "Smith",
+            "email": "Johnsmith99@gmail.com",
+            "country": "United Kingdom",
+            "phone": "7429157638",
+            "mobile": "7429157638",
+            "id": 2092,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Sprite"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2092"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2092/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2092/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12450,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-27T07:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3330"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2092"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3330/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3331,
+        "full_describe": "Pensionwise Callback with Steve Edmonds at Pensions Service Primary",
+        "person_name": "Steve Edmonds",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2138,
+        "client_name": "Mez Ahmed",
+        "client_email": "mez@hotmail.com",
+        "client_phone": "+44 (0)7501101444",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-04-27T13:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-27 12:03:10",
+        "updated_at": "2015-04-27 12:03:10",
+        "created_at": "2015-04-10 15:23:10",
+        "client_id": 2138,
+        "person_id": 15395,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3257,
+        "purchase_ref": "UQuTnIH8_clNV1S8MzI1Nw%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Mez",
+            "last_name": "Ahmed",
+            "email": "mez@hotmail.com",
+            "country": "United Kingdom",
+            "phone": "7501101444",
+            "id": 2138,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Lyndsay"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2138"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2138/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2138/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12454,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-27T07:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3331"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2138"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3331/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3332,
+        "full_describe": "Pensionwise Callback with Wayne O’Brien at Pensions Service Primary",
+        "person_name": "Wayne O’Brien",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2144,
+        "client_name": "Chris Packett",
+        "client_email": "chrispackett@yahoo.com",
+        "client_phone": "+44 (0)7777777777",
+        "client_mobile": "+44 (0)7777 777777",
+        "service_id": 48326,
+        "datetime": "2015-04-27T08:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-27 07:03:11",
+        "updated_at": "2015-04-27 07:03:11",
+        "created_at": "2015-04-10 15:32:36",
+        "client_id": 2144,
+        "person_id": 15371,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3258,
+        "purchase_ref": "0x7WDtNvJq1PKEcIMzI1OA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "chris",
+            "last_name": "packett",
+            "email": "chrispackett@yahoo.com",
+            "country": "United Kingdom",
+            "phone": "7777777777",
+            "mobile": "7777777777",
+            "id": 2144,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "walkers"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2144"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2144/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2144/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 12458,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-04-27T07:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3332"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2144"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3332/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3502,
+        "full_describe": "Pensionwise Callback with Martin Holley at Pensions Service Primary",
+        "person_name": "Martin Holley",
+        "service_name": "Pensionwise Callback",
+        "member_id": 360,
+        "client_name": "Jiannis Georgiadis",
+        "client_email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+        "client_phone": "+44 (0)7460416680",
+        "client_mobile": "+44 (0)7460 416680",
+        "service_id": 48326,
+        "datetime": "2015-04-15T11:00:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-15 08:59:57",
+        "updated_at": "2015-04-15 08:59:57",
+        "created_at": "2015-04-15 08:59:57",
+        "client_id": 360,
+        "person_id": 15367,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3429,
+        "purchase_ref": "iTRWmY68k7TmIGb4MzQyOQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 927,
+              "note": ""
+            }
+          ]
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Jiannis",
+            "last_name": "Georgiadis",
+            "email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+            "country": "United Kingdom",
+            "phone": "7460416680",
+            "mobile": "7460416680",
+            "id": 360,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "banana"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 2944,
+              "value": "",
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/2944"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 12625,
+        "settings": {},
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3502"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3502/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3571,
+        "full_describe": "Pensionwise Callback with Shift 3 A at Pensions Service Primary",
+        "person_name": "Shift 3 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 360,
+        "client_name": "Jiannis Georgiadis",
+        "client_email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+        "client_phone": "+44 (0)7460416680",
+        "client_mobile": "+44 (0)7460 416680",
+        "service_id": 48326,
+        "datetime": "2015-04-16T13:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-16 11:31:34",
+        "updated_at": "2015-04-16 11:31:34",
+        "created_at": "2015-04-16 09:22:30",
+        "client_id": 360,
+        "person_id": 15294,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3497,
+        "purchase_ref": "UflRmwFNhk7l4Mb7MzQ5Nw%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 968,
+              "note": ""
+            }
+          ]
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Jiannis",
+            "last_name": "Georgiadis",
+            "email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+            "country": "United Kingdom",
+            "phone": "7460416680",
+            "mobile": "7460416680",
+            "id": 360,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "banana"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 2976,
+              "value": "",
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/2976"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 8424,
+        "settings": {
+          "api_client_ref": null,
+          "api_event_ref": null
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3571"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3571/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3620,
+        "full_describe": "Pensionwise Callback with Julie Stewart at Pensions Service Primary",
+        "person_name": "Julie Stewart",
+        "service_name": "Pensionwise Callback",
+        "member_id": 360,
+        "client_name": "Jiannis Georgiadis",
+        "client_email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+        "client_phone": "+44 (0)7460416680",
+        "client_mobile": "+44 (0)7460 416680",
+        "service_id": 48326,
+        "datetime": "2015-04-17T08:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-17 07:03:12",
+        "updated_at": "2015-04-17 07:03:12",
+        "created_at": "2015-04-16 16:24:06",
+        "client_id": 360,
+        "person_id": 15383,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3546,
+        "purchase_ref": "WR8rhud_Ra4vKNbbMzU0Ng%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 991,
+              "note": ""
+            }
+          ]
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Jiannis",
+            "last_name": "Georgiadis",
+            "email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+            "country": "United Kingdom",
+            "phone": "7460416680",
+            "mobile": "7460416680",
+            "id": 360,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "banana"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3011,
+              "value": "",
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3011"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 12741,
+        "settings": {
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3620"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3620/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3836,
+        "full_describe": "Pensionwise Callback with Wayne O’Brien at Pensions Service Primary",
+        "person_name": "Wayne O’Brien",
+        "service_name": "Pensionwise Callback",
+        "member_id": 349,
+        "client_name": "Dan Tidmas",
+        "client_email": "dtidmas@bookingbug.com",
+        "client_phone": "+44 (0)7876820563",
+        "client_mobile": "+44 (0)7876 820563",
+        "service_id": 48326,
+        "datetime": "2015-04-29T09:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-04-29 08:03:12",
+        "updated_at": "2015-04-29 08:03:12",
+        "created_at": "2015-04-27 09:29:05",
+        "client_id": 349,
+        "person_id": 15371,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3763,
+        "purchase_ref": "RjDxp_OaI4-5DKuiMzc2Mw%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Dan",
+            "last_name": "Tidmas",
+            "email": "dtidmas@bookingbug.com",
+            "address1": "BookingBug",
+            "address2": "151-153 Farringdon Road",
+            "address5": "London",
+            "postcode": "EC1R 3AF",
+            "country": "United Kingdom",
+            "phone": "7876820563",
+            "mobile": "7876820563",
+            "id": 349,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "LONDON"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/349"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/349/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/349/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3143,
+              "value": "Ineligible",
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3143"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 12952,
+        "settings": {
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3836"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/349"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3836/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3941,
+        "full_describe": "Pensionwise Callback with Shift 3 A at Pensions Service Primary",
+        "person_name": "Shift 3 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2254,
+        "client_name": "Jayne Matthews",
+        "client_email": "jayne.matthews8@btinternet.com",
+        "client_phone": "+44 (0)2920530060",
+        "client_mobile": "+44 (0)7504 987644",
+        "service_id": 48326,
+        "datetime": "2015-05-22T17:20:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-05-22 15:02:57",
+        "updated_at": "2015-05-22 15:02:57",
+        "created_at": "2015-05-02 14:29:16",
+        "client_id": 2254,
+        "person_id": 15294,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3868,
+        "purchase_ref": "Kqmc9XHFJWjn6hZHMzg2OA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Client",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "jayne",
+            "last_name": "matthews",
+            "email": "jayne.matthews8@btinternet.com",
+            "country": "United Kingdom",
+            "phone": "2920530060",
+            "mobile": "7504987644",
+            "id": 2254,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "molly"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2254"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2254/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2254/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 13192,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-05-18T07:30:00.000Z",
+          "obfuscated_id": "3t7q2Nl7k5yk0vnb",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3941"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2254"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3941/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3980,
+        "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+        "person_name": "Shift 1 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 435,
+        "client_name": "Test Test",
+        "client_email": "awoodham@bookingbug.com",
+        "client_phone": "+44 (0)7899071988",
+        "client_mobile": "+61 883331451",
+        "service_id": 48326,
+        "datetime": "2015-06-17T09:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-06-17 08:03:13",
+        "updated_at": "2015-06-17 08:03:13",
+        "created_at": "2015-06-01 08:50:42",
+        "client_id": 435,
+        "person_id": 15289,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3905,
+        "purchase_ref": "Qd43CHjrWBYVmsHKMzkwNQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Test",
+            "last_name": "Test",
+            "email": "awoodham@bookingbug.com",
+            "address1": "115D Stoke Newington Road",
+            "postcode": "N16 8BU",
+            "country": "United Kingdom",
+            "phone": "7899071988",
+            "mobile": "883331451",
+            "id": 435,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Book123"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "61",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/435"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/435/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/435/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 13316,
+        "settings": {
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3980"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/435"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3980/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3981,
+        "full_describe": "Pensionwise Callback with Mark Benham at Pensions Service Primary",
+        "person_name": "Mark Benham",
+        "service_name": "Pensionwise Callback",
+        "member_id": 435,
+        "client_name": "Test Test",
+        "client_email": "awoodham@bookingbug.com",
+        "client_phone": "+44 (0)7899071988",
+        "client_mobile": "+61 883331451",
+        "service_id": 48326,
+        "datetime": "2015-06-17T10:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-06-17 09:03:12",
+        "updated_at": "2015-06-17 09:03:12",
+        "created_at": "2015-06-01 08:55:49",
+        "client_id": 435,
+        "person_id": 15369,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3906,
+        "purchase_ref": "aDNQJoaI_C4G90LoMzkwNg%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Test",
+            "last_name": "Test",
+            "email": "awoodham@bookingbug.com",
+            "address1": "115D Stoke Newington Road",
+            "postcode": "N16 8BU",
+            "country": "United Kingdom",
+            "phone": "7899071988",
+            "mobile": "883331451",
+            "id": 435,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Book123"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "61",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/435"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/435/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/435/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 13320,
+        "settings": {
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3981"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/435"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3981/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3982,
+        "full_describe": "Pensionwise Callback with Mark Benham at Pensions Service Primary",
+        "person_name": "Mark Benham",
+        "service_name": "Pensionwise Callback",
+        "member_id": 435,
+        "client_name": "Test Test",
+        "client_email": "awoodham@bookingbug.com",
+        "client_phone": "+44 (0)7899071988",
+        "client_mobile": "+61 883331451",
+        "service_id": 48326,
+        "datetime": "2015-06-19T09:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-06-19 08:03:10",
+        "updated_at": "2015-06-19 08:03:10",
+        "created_at": "2015-06-03 08:14:17",
+        "client_id": 435,
+        "person_id": 15369,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3907,
+        "purchase_ref": "5ppYy7QENxMwmfZYMzkwNw%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Test",
+            "last_name": "Test",
+            "email": "awoodham@bookingbug.com",
+            "address1": "115D Stoke Newington Road",
+            "postcode": "N16 8BU",
+            "country": "United Kingdom",
+            "phone": "7899071988",
+            "mobile": "883331451",
+            "id": 435,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Book123"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "61",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/435"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/435/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/435/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 13324,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-06-17T08:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3982"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/435"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3982/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3983,
+        "full_describe": "Pensionwise Callback with Shift 1 B at Pensions Service Primary",
+        "person_name": "Shift 1 B",
+        "service_name": "Pensionwise Callback",
+        "member_id": 360,
+        "client_name": "Jiannis Georgiadis",
+        "client_email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+        "client_phone": "+44 (0)7460416680",
+        "client_mobile": "+44 (0)7460 416680",
+        "service_id": 48326,
+        "datetime": "2015-06-19T08:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-06-19 07:03:10",
+        "updated_at": "2015-06-19 07:03:10",
+        "created_at": "2015-06-03 15:28:34",
+        "client_id": 360,
+        "person_id": 15290,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3908,
+        "purchase_ref": "hQuhnnMvWePp_bsiMzkwOA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1135,
+              "note": "Masking of memorable word test"
+            }
+          ]
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Jiannis",
+            "last_name": "Georgiadis",
+            "email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+            "country": "United Kingdom",
+            "phone": "7460416680",
+            "mobile": "7460416680",
+            "id": 360,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "banana"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 13328,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-06-17T08:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3983"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3983/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3984,
+        "full_describe": "Pensionwise Callback with Lynette Conway at Pensions Service Primary",
+        "person_name": "Lynette Conway",
+        "service_name": "Pensionwise Callback",
+        "member_id": 360,
+        "client_name": "Jiannis Georgiadis",
+        "client_email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+        "client_phone": "+44 (0)7460416680",
+        "client_mobile": "+44 (0)7460 416680",
+        "service_id": 48326,
+        "datetime": "2015-06-19T09:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-06-19 08:03:11",
+        "updated_at": "2015-06-19 08:03:11",
+        "created_at": "2015-06-03 15:34:04",
+        "client_id": 360,
+        "person_id": 15398,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3909,
+        "purchase_ref": "UME7OXUiyjyBkpbYMzkwOQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1136,
+              "note": "Masking memorable word test"
+            }
+          ]
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Jiannis",
+            "last_name": "Georgiadis",
+            "email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+            "country": "United Kingdom",
+            "phone": "7460416680",
+            "mobile": "7460416680",
+            "id": 360,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "banana"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 13332,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-06-17T08:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3984"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3984/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3985,
+        "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+        "person_name": "Shift 1 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 360,
+        "client_name": "Jiannis Georgiadis",
+        "client_email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+        "client_phone": "+44 (0)7460416680",
+        "client_mobile": "+44 (0)7460 416680",
+        "service_id": 48326,
+        "datetime": "2015-06-22T11:20:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-06-22 09:03:12",
+        "updated_at": "2015-06-22 09:03:12",
+        "created_at": "2015-06-03 15:36:29",
+        "client_id": 360,
+        "person_id": 15289,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3910,
+        "purchase_ref": "veI4XJ6iCsr5BG5JMzkxMA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1137,
+              "note": "Masking memorable word test"
+            }
+          ]
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Jiannis",
+            "last_name": "Georgiadis",
+            "email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+            "country": "United Kingdom",
+            "phone": "7460416680",
+            "mobile": "7460416680",
+            "id": 360,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "banana"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 13336,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-06-17T08:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3985"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3985/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3986,
+        "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+        "person_name": "Shift 1 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2272,
+        "client_name": "Roy Manders",
+        "client_email": "roy.manders@hmttreasury.gsi.gov.uk",
+        "client_phone": "+44 (0)7970123456",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-06-30T08:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-06-30 07:03:14",
+        "updated_at": "2015-06-30 07:03:14",
+        "created_at": "2015-06-15 17:14:31",
+        "client_id": 2272,
+        "person_id": 15289,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3911,
+        "purchase_ref": "VoVW7VfiLJJe1a-9MzkxMQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1138,
+              "note": "caller thinks he's elvis"
+            }
+          ]
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Roy",
+            "last_name": "Manders",
+            "email": "roy.manders@hmttreasury.gsi.gov.uk",
+            "postcode": "SP4 SW",
+            "country": "United Kingdom",
+            "phone": "7970123456",
+            "id": 2272,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "bernard"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2272"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2272/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2272/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3287,
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3287"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13340,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-06-29T07:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3986"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2272"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3986/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3987,
+        "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+        "person_name": "Shift 1 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2274,
+        "client_name": "Matt Lucht",
+        "client_email": "matt@matt.com",
+        "client_phone": "+44 (0)7766491836",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-07-06T08:30:00+01:00",
+        "duration": 30,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-07-06 07:03:11",
+        "updated_at": "2015-07-06 07:03:11",
+        "created_at": "2015-06-19 15:11:46",
+        "client_id": 2274,
+        "person_id": 15289,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3912,
+        "purchase_ref": "SQFrvMne3m3Ohr22MzkxMg%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Matt",
+            "last_name": "Lucht",
+            "email": "matt@matt.com",
+            "country": "United Kingdom",
+            "phone": "7766491836",
+            "id": 2274,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "test"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2274"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2274/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2274/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3290,
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3290"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13350,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-07-03T07:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3987"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2274"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3987/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3988,
+        "full_describe": "Pensionwise Callback with Shift 1 B at Pensions Service Primary",
+        "person_name": "Shift 1 B",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2274,
+        "client_name": "Matt Lucht",
+        "client_email": "matt@matt.com",
+        "client_phone": "+44 (0)7766491836",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-07-06T08:30:00+01:00",
+        "duration": 30,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-06-19 15:11:46",
+        "updated_at": "2015-06-19 15:11:46",
+        "created_at": "2015-06-19 15:11:46",
+        "client_id": 2274,
+        "person_id": 15290,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3912,
+        "purchase_ref": "SQFrvMne3m3Ohr22MzkxMg%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Matt",
+            "last_name": "Lucht",
+            "email": "matt@matt.com",
+            "country": "United Kingdom",
+            "phone": "7766491836",
+            "id": 2274,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "test"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2274"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2274/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2274/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 13351,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-07-03T07:30:00.000Z"
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3988"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2274"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3988/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3989,
+        "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+        "person_name": "Shift 1 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2274,
+        "client_name": "Matt Lucht",
+        "client_email": "matt@matt.com",
+        "client_phone": "+44 (0)7766491836",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-07-06T10:00:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-07-06 08:03:13",
+        "updated_at": "2015-07-06 08:03:13",
+        "created_at": "2015-06-19 15:16:58",
+        "client_id": 2274,
+        "person_id": 15289,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3913,
+        "purchase_ref": "0_u1K35tpvsmlFJwMzkxMw%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Matt",
+            "last_name": "Lucht",
+            "email": "matt@matt.com",
+            "country": "United Kingdom",
+            "phone": "7766491836",
+            "id": 2274,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "test"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2274"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2274/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2274/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3291,
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3291"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13355,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-07-03T07:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3989"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2274"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3989/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3990,
+        "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+        "person_name": "Shift 1 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 349,
+        "client_name": "Dan Tidmas",
+        "client_email": "dtidmas@bookingbug.com",
+        "client_phone": "+44 (0)7876820563",
+        "client_mobile": "+44 (0)7876 820563",
+        "service_id": 48326,
+        "datetime": "2015-07-10T08:30:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-07-10 07:03:13",
+        "updated_at": "2015-07-10 07:03:13",
+        "created_at": "2015-06-25 12:18:14",
+        "client_id": 349,
+        "person_id": 15289,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3914,
+        "purchase_ref": "a3d-WcIfW-zjy9amMzkxNA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Dan",
+            "last_name": "Tidmas",
+            "email": "dtidmas@bookingbug.com",
+            "address1": "BookingBug",
+            "address2": "151-153 Farringdon Road",
+            "address5": "London",
+            "postcode": "EC1R 3AF",
+            "country": "United Kingdom",
+            "phone": "7876820563",
+            "mobile": "7876820563",
+            "id": 349,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "LONDON"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/349"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/349/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/349/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3292,
+              "value": "Complete",
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3292"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13359,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-07-09T07:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3990"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/349"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3990/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3991,
+        "full_describe": "Pensionwise Callback with Mark Benham at Pensions Service Primary",
+        "person_name": "Mark Benham",
+        "service_name": "Pensionwise Callback",
+        "member_id": 360,
+        "client_name": "Jiannis Georgiadis",
+        "client_email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+        "client_phone": "+44 (0)7460416680",
+        "client_mobile": "+44 (0)7460 416680",
+        "service_id": 48326,
+        "datetime": "2015-07-27T16:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-07-27 15:03:20",
+        "updated_at": "2015-07-27 15:03:20",
+        "created_at": "2015-07-02 08:26:07",
+        "client_id": 360,
+        "person_id": 15369,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3915,
+        "purchase_ref": "27P_zL6MxGQDmjcbMzkxNQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Jiannis",
+            "last_name": "Georgiadis",
+            "email": "jiannis.georgiadis@digital.cabinet-office.gov.uk",
+            "country": "United Kingdom",
+            "phone": "7460416680",
+            "mobile": "7460416680",
+            "id": 360,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "banana"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/360/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3293,
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3293"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13369,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-07-16T07:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3991"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/360"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3991/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3997,
+        "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+        "person_name": "Shift 1 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2276,
+        "client_name": "Charles Mumby",
+        "client_email": "cmumby@bookingbug.com",
+        "client_phone": "+44 (0)7507789298",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-09-29T08:40:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-09-29 07:03:16",
+        "updated_at": "2015-09-29 07:03:16",
+        "created_at": "2015-09-10 14:57:54",
+        "client_id": 2276,
+        "person_id": 15289,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3920,
+        "purchase_ref": "-T7DmQVaFYpPxeS1MzkyMA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1141,
+              "note": "Here are some notes"
+            }
+          ]
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Charles",
+            "last_name": "Mumby",
+            "email": "cmumby@bookingbug.com",
+            "address1": "11 Lea Road",
+            "address5": "United Kingdom",
+            "postcode": "00000",
+            "country": "United Kingdom",
+            "phone": "7507789298",
+            "id": 2276,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Test"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2276"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2276/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2276/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 13384,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-09-24T20:00:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3997"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2276"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3997/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 3998,
+        "full_describe": "Person - Michael Kelly at Pensions Service Primary",
+        "person_name": "Michael Kelly",
+        "datetime": "2015-05-26T10:00:00+01:00",
+        "duration": 30,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-09-10 15:42:19",
+        "updated_at": "2015-09-10 15:42:19",
+        "created_at": "2015-09-10 15:42:19",
+        "person_id": 15361,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "status": 3,
+        "_embedded": {
+          "answers": []
+        },
+        "slot_id": 13385,
+        "settings": {},
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/3998"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/3998/check_in"
+          }
+        }
+      },
+      {
+        "id": 4000,
+        "full_describe": "Pensionwise Callback with Michael Kelly at Pensions Service Primary",
+        "person_name": "Michael Kelly",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2276,
+        "client_name": "Charles Mumby",
+        "client_email": "cmumby@bookingbug.com",
+        "client_phone": "+44 (0)7507789298",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-05-27T10:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-09-10 15:45:35",
+        "updated_at": "2015-09-10 15:45:35",
+        "created_at": "2015-09-10 15:44:16",
+        "client_id": 2276,
+        "person_id": 15361,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3921,
+        "purchase_ref": "JUzvFA_6-ABHAmF9MzkyMQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Charles",
+            "last_name": "Mumby",
+            "email": "cmumby@bookingbug.com",
+            "address1": "11 Lea Road",
+            "address5": "United Kingdom",
+            "postcode": "00000",
+            "country": "United Kingdom",
+            "phone": "7507789298",
+            "id": 2276,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Test"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2276"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2276/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2276/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3298,
+              "value": "No show",
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3298"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13387,
+        "settings": {
+          "api_client_ref": null,
+          "api_event_ref": null
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4000"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2276"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4000/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 4001,
+        "full_describe": "Pensionwise Callback with Mark Benham at Pensions Service Primary",
+        "person_name": "Mark Benham",
+        "service_name": "Pensionwise Callback",
+        "member_id": 435,
+        "client_name": "Test Test",
+        "client_email": "awoodham@bookingbug.com",
+        "client_phone": "+44 (0)7899071988",
+        "client_mobile": "+61 883331451",
+        "service_id": 48326,
+        "datetime": "2015-09-28T09:40:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-09-28 08:03:13",
+        "updated_at": "2015-09-28 08:03:13",
+        "created_at": "2015-09-21 13:14:14",
+        "client_id": 435,
+        "person_id": 15369,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3922,
+        "purchase_ref": "j7e-PwD9-ph1DxXzMzkyMg%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1142,
+              "note": ""
+            }
+          ]
+        },
+        "channel": "Client",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Test",
+            "last_name": "Test",
+            "email": "awoodham@bookingbug.com",
+            "address1": "115D Stoke Newington Road",
+            "postcode": "N16 8BU",
+            "country": "United Kingdom",
+            "phone": "7899071988",
+            "mobile": "883331451",
+            "id": 435,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Book123"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "61",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/435"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/435/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/435/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3299,
+              "value": "Ineligible",
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3299"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13388,
+        "settings": {
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4001"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/435"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4001/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 4002,
+        "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+        "person_name": "Shift 1 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2276,
+        "client_name": "Charles Mumby",
+        "client_email": "cmumby@bookingbug.com",
+        "client_phone": "+44 (0)7507789298",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2015-10-12T08:50:00+01:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-10-12 07:03:17",
+        "updated_at": "2015-10-12 07:03:17",
+        "created_at": "2015-09-24 14:24:19",
+        "client_id": 2276,
+        "person_id": 15289,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3923,
+        "purchase_ref": "YLFsm8VREq-zYIsKMzkyMw%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1143,
+              "note": "Charles is a really nice guy"
+            }
+          ]
+        },
+        "channel": "Call Centre",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Charles",
+            "last_name": "Mumby",
+            "email": "cmumby@bookingbug.com",
+            "address1": "11 Lea Road",
+            "address5": "United Kingdom",
+            "postcode": "00000",
+            "country": "United Kingdom",
+            "phone": "7507789298",
+            "id": 2276,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "Test"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2276"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2276/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2276/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": []
+        },
+        "slot_id": 13392,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2015-10-08T19:30:00.000Z",
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4002"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2276"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4002/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 4003,
+        "full_describe": "Person - Julie Stewart at Pensions Service Primary",
+        "person_name": "Julie Stewart",
+        "datetime": "2015-03-26T08:30:00+00:00",
+        "duration": 60,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2015-09-24 14:30:39",
+        "updated_at": "2015-09-24 14:29:56",
+        "created_at": "2015-09-24 14:29:56",
+        "person_id": 15383,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1144,
+              "note": "Dentist"
+            }
+          ]
+        },
+        "status": 3,
+        "_embedded": {
+          "answers": []
+        },
+        "slot_id": 13393,
+        "settings": {},
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4003"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4003/check_in"
+          }
+        }
+      },
+      {
+        "id": 4005,
+        "full_describe": "Pensionwise Callback with Julie Stewart at Pensions Service Primary",
+        "person_name": "Julie Stewart",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2277,
+        "client_name": "Karim Iskandar",
+        "client_email": "kiskandar@bookingbug.com",
+        "client_phone": "",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2016-01-20T10:10:00+00:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2016-01-20 09:03:20",
+        "updated_at": "2016-01-20 09:03:20",
+        "created_at": "2015-12-22 16:38:06",
+        "client_id": 2277,
+        "person_id": 15383,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3925,
+        "purchase_ref": "TTKXtYF7PBdNDDdVMzkyNQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1145,
+              "note": "karim was worried about x,,,,,"
+            }
+          ]
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Karim",
+            "last_name": "Iskandar",
+            "email": "kiskandar@bookingbug.com",
+            "address1": "",
+            "address2": "",
+            "address4": "",
+            "address5": "",
+            "postcode": "",
+            "country": "United Kingdom",
+            "mobile": "",
+            "id": 2277,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": ""
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2277"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2277/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2277/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3303,
+              "value": "Complete",
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3303"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13395,
+        "settings": {
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4005"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2277"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4005/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 4006,
+        "full_describe": "Pensionwise Callback with Shift 1 A at Pensions Service Primary",
+        "person_name": "Shift 1 A",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2278,
+        "client_name": "Aman Singh",
+        "client_email": "aman@singh.com",
+        "client_phone": "+44 (0)7777777777",
+        "client_mobile": "+44 (0)7777 777777",
+        "service_id": 48326,
+        "datetime": "2016-03-17T08:30:00+00:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2016-02-17 16:24:16",
+        "updated_at": "2016-02-17 16:24:16",
+        "created_at": "2016-02-17 16:24:16",
+        "client_id": 2278,
+        "person_id": 15289,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3926,
+        "purchase_ref": "ofWgbFJRlYQmK_SUMzkyNg%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1146,
+              "note": "Opt out?"
+            }
+          ]
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Aman",
+            "last_name": "Singh",
+            "email": "aman@singh.com",
+            "country": "United Kingdom",
+            "phone": "7777777777",
+            "mobile": "7777777777",
+            "id": 2278,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "sugar"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2278"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2278/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2278/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3305,
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3305"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13399,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2016-03-02T08:00:00.000Z"
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4006"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2278"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4006/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 4008,
+        "full_describe": "Pensionwise Callback with Lynette Conway at Pensions Service Primary",
+        "person_name": "Lynette Conway",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2279,
+        "client_name": "David Henry",
+        "client_email": "dw_henry@yahoo.com.ai",
+        "client_phone": "",
+        "client_mobile": "+44 (0)7879 282112",
+        "service_id": 48326,
+        "datetime": "2016-02-23T09:30:00+00:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2016-02-23 09:03:16",
+        "updated_at": "2016-02-23 09:03:16",
+        "created_at": "2016-02-22 14:06:51",
+        "client_id": 2279,
+        "person_id": 15398,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3928,
+        "purchase_ref": "hk_P4LcGQ7tdFQbSMzkyOA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "David",
+            "last_name": "Henry",
+            "email": "dw_henry@yahoo.com.ai",
+            "address1": "40, Emlyn Road",
+            "address2": "",
+            "address4": "Redhill",
+            "address5": "SURREY",
+            "postcode": "RH1 6EW",
+            "country": "United Kingdom",
+            "mobile": "7879282112",
+            "id": 2279,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "wordsworth"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2279"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2279/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2279/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3308,
+              "value": "",
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3308"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            },
+            {
+              "id": 3309,
+              "value": "",
+              "price": "0.0",
+              "question_id": 5,
+              "admin_only": false,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 5,
+                  "name": "Are you willing to be contacted by a third party?",
+                  "required": false,
+                  "important": false,
+                  "admin_only": false,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "Yes ",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 5
+                    },
+                    {
+                      "name": "No",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 6
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+                    }
+                  }
+                }
+              },
+              "question_text": "Are you willing to be contacted by a third party?",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3309"
+                },
+                "question": {
+                  "title": "Are you willing to be contacted by a third party?",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+                }
+              }
+            },
+            {
+              "id": 3310,
+              "value": "",
+              "price": "0.0",
+              "question_id": 6,
+              "admin_only": false,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 6,
+                  "name": "Are you aged 50-54?",
+                  "required": false,
+                  "important": false,
+                  "admin_only": false,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "Yes",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 7
+                    },
+                    {
+                      "name": "No",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 8
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+                    }
+                  }
+                }
+              },
+              "question_text": "Are you aged 50-54?",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3310"
+                },
+                "question": {
+                  "title": "Are you aged 50-54?",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13401,
+        "settings": {
+          "sent_email_reminder": 1
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4008"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2279"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4008/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 4009,
+        "full_describe": "Pensionwise Callback with Steve Edmonds at Pensions Service Primary",
+        "person_name": "Steve Edmonds",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2280,
+        "client_name": "Matt Lucht",
+        "client_email": "mattlucht@gmail.com",
+        "client_phone": "+44 (0)7766491836",
+        "client_mobile": "",
+        "service_id": 48326,
+        "datetime": "2016-03-11T08:20:00+00:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2016-02-22 14:19:48",
+        "updated_at": "2016-02-22 14:19:48",
+        "created_at": "2016-02-22 14:19:48",
+        "client_id": 2280,
+        "person_id": 15395,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3929,
+        "purchase_ref": "MYf8FXeMSQqCCOOcMzkyOQ%3D%3D",
+        "notes": {
+          "public": [],
+          "private": []
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Matt",
+            "last_name": "Lucht",
+            "email": "mattlucht@gmail.com",
+            "address1": "24 Hadley Street",
+            "address2": "London",
+            "address4": "London",
+            "postcode": "NW1 8SS",
+            "country": "United Kingdom",
+            "phone": "7766491836",
+            "id": 2280,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "pensions"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2280"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2280/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2280/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3312,
+              "value": "Yes ",
+              "price": "0.0",
+              "question_id": 5,
+              "admin_only": false,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 5,
+                  "name": "Are you willing to be contacted by a third party?",
+                  "required": false,
+                  "important": false,
+                  "admin_only": false,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "Yes ",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 5
+                    },
+                    {
+                      "name": "No",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 6
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+                    }
+                  }
+                }
+              },
+              "question_text": "Are you willing to be contacted by a third party?",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3312"
+                },
+                "question": {
+                  "title": "Are you willing to be contacted by a third party?",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+                }
+              }
+            },
+            {
+              "id": 3313,
+              "value": "Yes",
+              "price": "0.0",
+              "question_id": 6,
+              "admin_only": false,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 6,
+                  "name": "Are you aged 50-54?",
+                  "required": false,
+                  "important": false,
+                  "admin_only": false,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "Yes",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 7
+                    },
+                    {
+                      "name": "No",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 8
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+                    }
+                  }
+                }
+              },
+              "question_text": "Are you aged 50-54?",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3313"
+                },
+                "question": {
+                  "title": "Are you aged 50-54?",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+                }
+              }
+            },
+            {
+              "id": 3314,
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3314"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13405,
+        "settings": {
+          "resource": -1,
+          "person": -1,
+          "earliest_time": "2016-03-07T07:50:00.000Z"
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4009"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2280"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4009/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      },
+      {
+        "id": 4010,
+        "full_describe": "Pensionwise Callback with John Shearer at Pensions Service Primary",
+        "person_name": "John Shearer",
+        "service_name": "Pensionwise Callback",
+        "member_id": 2281,
+        "client_name": "Dave Honry",
+        "client_email": "dw_henry@yahoo.com.au",
+        "client_phone": "",
+        "client_mobile": "+44 (0)7989 778767",
+        "service_id": 48326,
+        "datetime": "2016-02-24T09:30:00+00:00",
+        "duration": 70,
+        "on_waitlist": false,
+        "company_id": 37004,
+        "attended": true,
+        "booking_updated": "2016-02-25 10:38:15",
+        "updated_at": "2016-02-25 10:38:15",
+        "created_at": "2016-02-22 14:21:47",
+        "client_id": 2281,
+        "person_id": 15368,
+        "price": 0,
+        "paid": 0,
+        "quantity": 1,
+        "is_cancelled": false,
+        "multi_status": {},
+        "purchase_id": 3930,
+        "purchase_ref": "rzXLybEeWroMOXEDMzkzMA%3D%3D",
+        "notes": {
+          "public": [],
+          "private": [
+            {
+              "id": 1148,
+              "note": ""
+            }
+          ]
+        },
+        "channel": "Administrator",
+        "status": 4,
+        "_embedded": {
+          "client": {
+            "first_name": "Dave",
+            "last_name": "Honry",
+            "email": "dw_henry@yahoo.com.au",
+            "address1": "Flat 3",
+            "address2": "76 Tulse Hill",
+            "address4": "London",
+            "address5": "",
+            "postcode": "SW2 2PU",
+            "country": "United Kingdom",
+            "mobile": "7989778767",
+            "id": 2281,
+            "member_type": 2,
+            "files": [],
+            "answers": [
+              {
+                "question_id": 1,
+                "name": "Memorable Word",
+                "answer": "flat"
+              }
+            ],
+            "deleted": false,
+            "phone_prefix": "44",
+            "mobile_prefix": "44",
+            "_links": {
+              "self": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2281"
+              },
+              "bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2281/bookings{?start_date,end_date,include_cancelled,page,per_page}",
+                "templated": true
+              },
+              "pre_paid_bookings": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/members/2281/pre_paid_bookings{?start_date,end_date,page,per_page}",
+                "templated": true
+              },
+              "questions": {
+                "href": "https://treasurydev.bookingbug.com/api/v1/37004/client_details"
+              }
+            }
+          },
+          "answers": [
+            {
+              "id": 3316,
+              "value": "Incomplete",
+              "price": "0.0",
+              "question_id": 4,
+              "admin_only": true,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 4,
+                  "name": "Booking status",
+                  "required": false,
+                  "important": false,
+                  "admin_only": true,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "No show",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 1
+                    },
+                    {
+                      "name": "Ineligible",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 4
+                    },
+                    {
+                      "name": "Incomplete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 2
+                    },
+                    {
+                      "name": "Complete",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 3
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                    }
+                  }
+                }
+              },
+              "question_text": "Booking status",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3316"
+                },
+                "question": {
+                  "title": "Booking status",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/4"
+                }
+              }
+            },
+            {
+              "id": 3317,
+              "value": "Yes ",
+              "price": "0.0",
+              "question_id": 5,
+              "admin_only": false,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 5,
+                  "name": "Are you willing to be contacted by a third party?",
+                  "required": false,
+                  "important": false,
+                  "admin_only": false,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "Yes ",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 5
+                    },
+                    {
+                      "name": "No",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 6
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+                    }
+                  }
+                }
+              },
+              "question_text": "Are you willing to be contacted by a third party?",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3317"
+                },
+                "question": {
+                  "title": "Are you willing to be contacted by a third party?",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/5"
+                }
+              }
+            },
+            {
+              "id": 3318,
+              "value": "Yes",
+              "price": "0.0",
+              "question_id": 6,
+              "admin_only": false,
+              "important": false,
+              "_embedded": {
+                "question": {
+                  "id": 6,
+                  "name": "Are you aged 50-54?",
+                  "required": false,
+                  "important": false,
+                  "admin_only": false,
+                  "applies_to": 0,
+                  "ask_member": true,
+                  "detail_type": "select",
+                  "options": [
+                    {
+                      "name": "Yes",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 7
+                    },
+                    {
+                      "name": "No",
+                      "price": 0,
+                      "is_default": false,
+                      "id": 8
+                    }
+                  ],
+                  "settings": {},
+                  "price": 0,
+                  "price_per_booking": false,
+                  "outcome": false,
+                  "_links": {
+                    "self": {
+                      "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+                    }
+                  }
+                }
+              },
+              "question_text": "Are you aged 50-54?",
+              "outcome": false,
+              "company_id": 37000,
+              "_links": {
+                "self": {
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/answers/3318"
+                },
+                "question": {
+                  "title": "Are you aged 50-54?",
+                  "href": "https://treasurydev.bookingbug.com/api/v1/37000/questions/6"
+                }
+              }
+            }
+          ]
+        },
+        "slot_id": 13406,
+        "settings": {
+          "sent_email_reminder": 1,
+          "obfuscated_id": "Bf222Lax5f4pqehr"
+        },
+        "slot_settings": {},
+        "_links": {
+          "self": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings/4010"
+          },
+          "client": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/client/2281"
+          },
+          "check_in": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/bookings/4010/check_in"
+          },
+          "questions": {
+            "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/questions?detail_group_id=18528"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings?page=2&per_page=100"
+    },
+    "previous": {
+      "href": "https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings?page=1&per_page=100"
+    }
+  }
+}

@@ -41,6 +41,7 @@ GEM
     ast (2.2.0)
     backports (3.6.8)
     builder (3.2.2)
+    byebug (8.2.2)
     capybara (2.6.2)
       addressable
       mime-types (>= 1.16)
@@ -48,7 +49,10 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
-    concurrent-ruby (1.0.0)
+    coderay (1.1.1)
+    concurrent-ruby (1.0.1)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
     cucumber (2.3.2)
       builder (>= 2.1.2)
       cucumber-core (~> 1.4.0)
@@ -66,6 +70,7 @@ GEM
       nokogiri (~> 1.5)
       railties (>= 3, < 5)
     cucumber-wire (0.0.1)
+    database_cleaner (1.5.1)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     ethon (0.8.1)
@@ -85,6 +90,7 @@ GEM
     gherkin (3.2.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    hashdiff (0.3.0)
     highline (1.7.8)
     i18n (0.7.0)
     json (1.8.3)
@@ -94,6 +100,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    method_source (0.8.2)
     mime-types (2.99.1)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
@@ -108,6 +115,13 @@ GEM
       ast (~> 2.2)
     pg (0.18.4)
     powerpack (0.1.1)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.3.0)
+      byebug (~> 8.0)
+      pry (~> 0.10)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -140,6 +154,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rainbow (2.1.0)
     rake (10.5.0)
+      rspec-support (~> 3.4.0)
     rspec-core (3.4.3)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -164,6 +179,10 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 0.3)
     ruby-progressbar (1.7.5)
+    safe_yaml (1.0.4)
+    shoulda-matchers (3.1.1)
+      activesupport (>= 4.0.0)
+    slop (3.6.0)
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -187,6 +206,11 @@ GEM
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     unicode-display_width (0.3.1)
+    vcr (3.0.1)
+    webmock (1.22.6)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
     websocket (1.2.2)
     xpath (2.0.0)
       nokogiri (~> 1.3)
@@ -196,12 +220,19 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber-rails
+  database_cleaner
+  faraday
+  faraday_middleware
   pg (~> 0.15)
+  pry-byebug
   rails (= 4.2.5.1)
   rake
   rspec-rails
   rubocop
+  shoulda-matchers (~> 3.1)
   travis
+  vcr
+  webmock
 
 BUNDLED WITH
    1.11.2
