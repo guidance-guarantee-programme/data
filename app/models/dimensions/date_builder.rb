@@ -68,7 +68,7 @@ module Dimensions
     end
 
     def day_of_quarter
-      (date - date.beginning_of_quarter) + 1
+      (date - date.beginning_of_quarter).to_i + 1
     end
 
     def day_of_month
