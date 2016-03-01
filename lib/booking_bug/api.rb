@@ -23,7 +23,7 @@ class BookingBug
         bookings += data['_embedded']['bookings']
 
         # TODO: replace the below with try once we have active-support!
-        url = data['_links']['next'] && data['_links']['next']['href']
+        url = nil # data['_links']['next'] && data['_links']['next']['href']
       end
 
       bookings

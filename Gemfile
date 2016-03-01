@@ -14,10 +14,6 @@ group :development do
   gem 'travis', require: false
 end
 
-group :development, :test do
-  gem 'pry-byebug'
-end
-
 group :test do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
@@ -28,5 +24,6 @@ end
 
 group :development, :test do
   gem 'pry-rails'
+  gem 'dotenv-rails'
   gem 'rspec-rails'
 end
