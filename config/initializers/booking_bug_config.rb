@@ -1,20 +1,33 @@
+# is this over-engineered??
 module Config
-  cattr_accessor :booking_bug
+  def self.included(base)
+    base.const_set(:Config, Class.new(::Config::Config))
+    base::Config.attributes = base::ATTRIBUTES
+    base.cattr_accessor :config
+  end
 
-  class BookingBug
-    attr_accessor :environment, :company_id, :api_key, :app_id, :email, :password
+  class Config
+    cattr_accessor :attrs
+
+    def self.attributes=(attributes)
+      self.attrs = attributes
+      attr_accessor(*attributes)
+    end
 
     def initialize
       yield(self) if block_given?
     end
 
     def attributes
-      instance_variable_names.map { |n| n.gsub(/@/, '') }
+      self.class.attrs
     end
   end
 end
 
-Config.booking_bug = Config::BookingBug.new do |config|
+BookingBug::ATTRIBUTES = %w(environment company_id api_key app_id email password).freeze
+BookingBug.include Config
+
+BookingBug.config = BookingBug::Config.new do |config|
   config.environment = ENV['BOOKING_BUG_ENVIRONMENT']
   config.company_id = ENV['BOOKING_BUG_COMPANY_ID']
   config.api_key = ENV['BOOKING_BUG_API_KEY']

@@ -9,9 +9,10 @@ Given(/^the booking bug data has new entries since the last extract$/) do
     2194, 873,  545,  1393, 1399
   ]
 
-  # TODO: replace this with database records for each ID.
-  allow(Facts::Booking).to receive(:any?) do |query|
-    @created_booking_ids.include?(query[:booking_bug_id])
+  date_dimension = Dimensions::DateBuilder.new(2016, 2, 1).date_dimension
+  date_dimension.save!
+  @created_booking_ids.each do |id|
+    Facts::Booking.create!(reference_number: id, date_dimension: date_dimension)
   end
 end
 

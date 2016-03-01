@@ -1,6 +1,6 @@
-Feature: Extract booking data
-  In order to know how many bookings Pension Wise have made
-  The booking manager will need booking data extracted from the booking system
+Feature: Persist booking data
+  In order to have a full audit trail of data imported from the booking system
+  The booking manager will need to persist a copy of imported data to disk
 
   @wip
   Scenario: Data is written to disk before any restructuring takes place

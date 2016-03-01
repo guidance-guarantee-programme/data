@@ -10,3 +10,7 @@ Then(/^a list of bookings is extracted from the booking api$/) do
   expect(@bookings).to be_a(Array)
   expect(@bookings.count).to eq(1444)
 end
+
+When(/^booking data is extracted from the booking api$/) do
+  BookingBug.new.call
+end

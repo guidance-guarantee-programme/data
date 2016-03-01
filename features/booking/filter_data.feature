@@ -1,6 +1,6 @@
 Feature: Filter booking data
-  In order to know how many bookings Pension Wise have made
-  The booking manager will need booking data extracted from the booking system
+  In order to limit import to relevant data
+  The booking manager will need to filter data extracted from the booking system
 
   @vcr_booking_bug_all
   Scenario: Filtering new booking bug data

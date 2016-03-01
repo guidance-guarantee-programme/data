@@ -1,4 +1,3 @@
-require 'date'
 module RawDataLoaders
   def raw_data(name)
     path = "#{__dir__}/../fixtures/#{name}.json"

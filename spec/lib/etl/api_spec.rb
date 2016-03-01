@@ -1,15 +1,18 @@
 require 'rails_helper'
 
-RSpec.describe BookingBug::Api do
-  before do
-    allow(BookingBug::Connection).to receive(:new).and_return(fake_connection)
+RSpec.describe Etl::Api do
+  subject do
+    described_class.new(
+      base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
+      connection: fake_connection
+    )
   end
 
   describe '#auth_token' do
-    let(:fake_connection) { double('BookingBug::Connection', login: { 'auth_token' => '12345' }) }
+    let(:fake_connection) { double('BookingBug::Connection', auth_token: '12345') }
 
     it 'logins using the BookingBug Connection' do
-      expect(fake_connection).to receive(:login)
+      expect(fake_connection).to receive(:auth_token)
       subject.auth_token
     end
 
@@ -19,7 +22,7 @@ RSpec.describe BookingBug::Api do
       end
 
       it 'memories the auth token' do
-        expect(fake_connection).to receive(:login).once
+        expect(fake_connection).to receive(:auth_token).once
         subject.auth_token
         subject.auth_token
       end
@@ -27,16 +30,16 @@ RSpec.describe BookingBug::Api do
 
     context 'when login is not successful' do
       it 'raise an error' do
-        allow(fake_connection).to receive(:login).and_raise(StandardError, '401 Unauthorized')
-        expect { subject.auth_token }.to raise_error(BookingBug::UnableToAuthenticate, '401 Unauthorized')
+        allow(fake_connection).to receive(:auth_token).and_raise(StandardError, '401 Unauthorized')
+        expect { subject.auth_token }.to raise_error(Etl::UnableToAuthenticate, '401 Unauthorized')
       end
     end
   end
 
   describe '#all' do
-    let(:fake_connection) { double('BookingBug::Connection', login: { 'auth_token' => '12345' }) }
-    let(:page_data_1) { raw_data('booking_data_page_1') }
-    let(:page_data_2) { raw_data('booking_data_page_2') }
+    let(:fake_connection) { double('BookingBug::Connection', auth_token: '12345') }
+    let(:page_data_1) { BookingBugConnection::PageWrapper.new(raw_data('booking_data_page_1')) }
+    let(:page_data_2) { BookingBugConnection::PageWrapper.new(raw_data('booking_data_page_2')) }
 
     context 'when only a single page of data exists' do
       before do

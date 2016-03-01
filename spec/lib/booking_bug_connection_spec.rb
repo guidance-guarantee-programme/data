@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe BookingBug::Connection do
+RSpec.describe BookingBugConnection do
   let(:fake_faraday) { double('Faraday') }
   before do
     allow(Faraday).to receive(:new).and_return(fake_faraday)
@@ -19,7 +19,7 @@ RSpec.describe BookingBug::Connection do
       expect(fake_request).to receive(:url).with('/api/v1/login')
       expect(fake_request).to receive(:body=).with(/^email=developers@pensionwise.gov.uk&password=.*$/)
 
-      subject.login
+      subject.auth_token
 
       expect(fake_request.headers).to eq(
         'App-Id' => 'fd0cd097',
