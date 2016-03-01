@@ -11,13 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160229155654) do
+ActiveRecord::Schema.define(version: 20160301145407) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "dimensions_dates", force: :cascade do |t|
-    t.string   "date",                   null: false
+    t.date     "date",                   null: false
     t.string   "date_name",              null: false
     t.string   "date_name_abbreviated",  null: false
     t.integer  "year",                   null: false

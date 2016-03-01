@@ -7,7 +7,7 @@ module Dimensions
     # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
     def date_dimension
       Dimensions::Date.new(
-        date: date.strftime('%-d/%-m/%Y'),
+        date: date,
         date_name: date_name,
         date_name_abbreviated: date_name_abbreviated,
         year: year,

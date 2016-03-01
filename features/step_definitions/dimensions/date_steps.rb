@@ -7,5 +7,7 @@ When(/^we build a date dimension for that date$/) do
 end
 
 Then(/^we can constrain or group on (.*), eg (.*)$/) do |characteristic, example|
+  example = Date.parse(example).to_s if characteristic == 'date'
+
   expect(@date_dimension.public_send(characteristic).to_s).to eq(example)
 end
