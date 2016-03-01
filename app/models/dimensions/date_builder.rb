@@ -76,7 +76,7 @@ module Dimensions
     end
 
     def day_of_week
-      date.wday
+      date.strftime('%u').to_i
     end
 
     def day_name
