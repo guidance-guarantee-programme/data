@@ -32,7 +32,7 @@ RSpec.describe Dimensions::Date, type: :model do
 
   it { is_expected.to validate_presence_of(:week) }
   it { is_expected.to validate_numericality_of(:week).only_integer }
-  it { is_expected.to validate_inclusion_of(:week).in_range(1..52) }
+  it { is_expected.to validate_inclusion_of(:week).in_range(1..53) }
 
   it { is_expected.to validate_presence_of(:day_of_year) }
   it { is_expected.to validate_numericality_of(:day_of_year).only_integer }

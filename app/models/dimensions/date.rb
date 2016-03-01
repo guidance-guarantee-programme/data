@@ -30,7 +30,7 @@ module Dimensions
     validates :week,
               presence: true,
               numericality: { only_integer: true },
-              inclusion: { in: (1..52) }
+              inclusion: { in: (1..53) }
 
     validates :day_of_year,
               presence: true,
