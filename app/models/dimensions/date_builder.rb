@@ -4,7 +4,7 @@ module Dimensions
       self.date = ::Date.new(year, month, day)
     end
 
-    # rubocop:disable Metrics/AbcSize, Style/MethodLength
+    # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
     def date_dimension
       Dimensions::Date.new(
         date: date.strftime('%-d/%-m/%Y'),
@@ -25,7 +25,7 @@ module Dimensions
         weekday_weekend: weekday_weekend
       )
     end
-    # rubocop:enable Metrics/AbcSize, Style/MethodLength
+    # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
     private
 
