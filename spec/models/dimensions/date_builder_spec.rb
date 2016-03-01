@@ -11,7 +11,7 @@ RSpec.describe Dimensions::DateBuilder do
     subject(:date_dimension) { date_dimension_builder.date_dimension }
 
     it "maps the `date' attribute" do
-      expect(date_dimension.date).to eq('29/2/2016')
+      expect(date_dimension.date).to eq(Date.new(year, month, day))
     end
 
     it "maps the `date_name' attribute" do
