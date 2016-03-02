@@ -18,13 +18,13 @@ class BookingBug
   def extractor
     @api ||= Etl::Api.new(
       base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
-      connection: BookingBugConnection.new
+      connection: BookingBugConnection.new(config: BookingBug.config)
     )
   end
 
   def filter
-    @filter ||= Etl::Filter.new do |booking_reference|
-      Facts::Booking.exists?(reference_number: booking_reference)
+    @filter ||= Etl::Filter.new do |record|
+      Facts::Booking.where(reference_number: record['id']).empty?
     end
   end
 

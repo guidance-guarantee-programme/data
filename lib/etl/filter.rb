@@ -1,13 +1,16 @@
 module Etl
+  class MissingFilterBlock < StandardError; end
   class Filter
+    attr_reader :filter
+
     def initialize(&block)
-      raise 'Missing filter block' unless block_given?
-      @filter_block = block
+      raise MissingFilterBlock unless block_given?
+      @filter = block
     end
 
     def call(records)
-      records.reject do |record|
-        @filter_block.call(record['id'])
+      records.select do |record|
+        @filter.call(record)
       end
     end
   end

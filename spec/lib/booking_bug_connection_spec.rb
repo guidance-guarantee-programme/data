@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe BookingBugConnection do
   let(:fake_faraday) { double('Faraday') }
+  subject { described_class.new(config: BookingBug.config) }
   before do
     allow(Faraday).to receive(:new).and_return(fake_faraday)
     allow(fake_faraday).to receive(:post).and_yield(fake_request).and_return(fake_response)

@@ -2,7 +2,7 @@ require 'faraday'
 require 'faraday_middleware'
 
 class BookingBugConnection
-  def initialize(config: BookingBug.config)
+  def initialize(config:)
     @config = config
   end
 

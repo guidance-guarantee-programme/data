@@ -11,7 +11,7 @@ RSpec.describe Etl::Api do
   describe '#auth_token' do
     let(:fake_connection) { double('BookingBug::Connection', auth_token: '12345') }
 
-    it 'logins using the BookingBug Connection' do
+    it 'uses the BookingBug Connection' do
       expect(fake_connection).to receive(:auth_token)
       subject.auth_token
     end
@@ -72,7 +72,7 @@ RSpec.describe Etl::Api do
         expect(subject.call.count).to eq(144)
       end
 
-      it 'it retrieves each page of data fro the booking bug connection once' do
+      it 'it retrieves each page of data from the booking bug connection once' do
         expect(fake_connection).to receive(:page).with(
           '/api/v1/admin/37004/bookings',
           '12345'

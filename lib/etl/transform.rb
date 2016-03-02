@@ -21,8 +21,10 @@ module Etl
       @metadata << { name: name, proc: proc }
     end
 
+    private
+
     def transform(record)
-      response = { metadata: {} }
+      response = Hash.new { |h, k| h[k] = {} }
       @fields.each { |field| response[field[:name]] = field[:proc].call(record) }
       @metadata.each { |field| response[:metadata][field[:name]] = field[:proc].call(record) }
       response

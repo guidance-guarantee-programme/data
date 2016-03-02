@@ -22,7 +22,6 @@ module Etl
 
         bookings += page.data
 
-        url = nil # test with the first page only
         url = page.next_page
       end
 
