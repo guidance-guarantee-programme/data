@@ -1,9 +1,10 @@
-require 'rails_helper'
+require 'spec_helper'
+require 'etl/api'
 
 RSpec.describe Etl::Api do
   subject do
     described_class.new(
-      base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
+      base_path: '/api/v1/admin/37004/bookings',
       connection: fake_connection
     )
   end
@@ -38,8 +39,14 @@ RSpec.describe Etl::Api do
 
   describe '#all' do
     let(:fake_connection) { double('BookingBug::Connection', auth_token: '12345') }
-    let(:page_data_1) { BookingBugConnection::PageWrapper.new(raw_data('booking_data_page_1')) }
-    let(:page_data_2) { BookingBugConnection::PageWrapper.new(raw_data('booking_data_page_2')) }
+    let(:page_data_1) do
+      double(
+        :page_1,
+        data: (1..100).to_a,
+        next_page: 'https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings?page=2&per_page=100'
+      )
+    end
+    let(:page_data_2) { double(:page_2, data: (1..44).to_a, next_page: nil) }
 
     context 'when only a single page of data exists' do
       before do
