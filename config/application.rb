@@ -1,6 +1,7 @@
 require_relative './boot'
 
 require 'rails'
+require 'active_job/railtie'
 require 'active_record/railtie'
 
 Bundler.require(*Rails.groups)
