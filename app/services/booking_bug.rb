@@ -32,7 +32,14 @@ class BookingBug
         base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
         connection: BookingBugConnection.new(config: BookingBug.config)
       ),
-      Etl::Filter.new { |record| Facts::Booking.where(reference_number: record['id']).empty? }
+      Etl::Filter.new { |record| Facts::Booking.where(reference_number: record['id']).empty? },
+      Etl::Transform.new do |t|
+        t.add_field(
+          :date_dimension,
+          ->(record) { Dimensions::Date.find_by!(date: Date.parse(record['datetime'])) }
+        )
+        t.add_metadata(:reference_number, ->(record) { record['id'] })
+      end
     ]
   end
 end
