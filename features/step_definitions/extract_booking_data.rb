@@ -3,10 +3,7 @@ Given(/^the booking system contains booking data$/) do
 end
 
 When(/^a list of bookings is requested from the booking api$/) do
-  @bookings = Etl::Api.new(
-    base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
-    connection: BookingBugConnection.new(config: BookingBug.config)
-  ).call
+  @bookings = BookingBug.new.call(actions_to_perform: 1)
 end
 
 Then(/^a list of bookings is extracted from the booking api$/) do
