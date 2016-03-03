@@ -22,25 +22,17 @@ class BookingBug
   # Defaults to all actions
   def call(actions_to_perform: actions.count)
     actions[0..actions_to_perform - 1].inject([]) do |data, action|
-      action[:method].call(data)
+      action.call(data)
     end
   end
 
-  # rubocop:disable MethodLength
   def actions
-    [
-      {
-        type: :extract,
-        method: Etl::Api.new(
-          base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
-          connection: BookingBugConnection.new(config: BookingBug.config)
-        )
-      },
-      {
-        type: :filter,
-        method: Etl::Filter.new { |record| Facts::Booking.where(reference_number: record['id']).empty? }
-      }
+    @actions ||= [
+      Etl::Api.new(
+        base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
+        connection: BookingBugConnection.new(config: BookingBug.config)
+      ),
+      Etl::Filter.new { |record| Facts::Booking.where(reference_number: record['id']).empty? }
     ]
   end
-  # rubocop:enable MethodLength
 end
