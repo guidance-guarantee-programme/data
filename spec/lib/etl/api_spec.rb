@@ -54,13 +54,13 @@ RSpec.describe Etl::Api do
       end
 
       it 'returns the array of bookings' do
-        result = subject.call(records: [], errors: {})
+        result = subject.call(records: [], log: {})
         expect(result[:records].count).to eq(44)
       end
 
       it 'retrieves a single page of data from the booking bug connection' do
         expect(fake_connection).to receive(:page).once
-        subject.call(records: [], errors: {})
+        subject.call(records: [], log: {})
       end
     end
 
@@ -77,7 +77,7 @@ RSpec.describe Etl::Api do
       end
 
       it 'returns the array of all bookings from both requests' do
-        result = subject.call(records: [], errors: {})
+        result = subject.call(records: [], log: {})
         expect(result[:records].count).to eq(144)
       end
 
@@ -90,7 +90,7 @@ RSpec.describe Etl::Api do
           'https://treasurydev.bookingbug.com/api/v1/admin/37004/bookings?page=2&per_page=100',
           '12345'
         ).once
-        subject.call(records: [], errors: {})
+        subject.call(records: [], log: {})
       end
     end
   end

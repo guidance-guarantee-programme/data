@@ -13,7 +13,7 @@ module Etl
       raise UnableToAuthenticate, e.message
     end
 
-    def call(records:, errors:)
+    def call(records:, log:)
       bookings = records.dup
       url = @base_path
 
@@ -25,7 +25,7 @@ module Etl
         url = page.next_page
       end
 
-      { records: bookings, errors: errors }
+      { records: bookings, log: log }
     end
   end
 end

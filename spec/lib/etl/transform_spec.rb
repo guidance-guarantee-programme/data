@@ -16,13 +16,13 @@ RSpec.describe Etl::Transform do
         t.add_field :character, ->(r) { r[:field_1] }
       end
 
-      expect(transform.call(records: data, errors: {})).to eq(
+      expect(transform.call(records: data, log: {})).to eq(
         records: [
           { character: 'a' },
           { character: 'a' },
           { character: 'b' }
         ],
-        errors: {}
+        log: {}
       )
     end
 
@@ -32,13 +32,13 @@ RSpec.describe Etl::Transform do
         t.add_field :number, ->(r) { r[:field_2] }
       end
 
-      expect(transform.call(records: data, errors: {})).to eq(
+      expect(transform.call(records: data, log: {})).to eq(
         records: [
           { character: 'a', number: '1' },
           { character: 'a', number: '2' },
           { character: 'b', number: '1' }
         ],
-        errors: {}
+        log: {}
       )
     end
 
@@ -47,13 +47,13 @@ RSpec.describe Etl::Transform do
         t.add_field :value, ->(r) { r[:field_1].upcase * r[:field_2].to_i }
       end
 
-      expect(transform.call(records: data, errors: {})).to eq(
+      expect(transform.call(records: data, log: {})).to eq(
         records: [
           { value: 'A' },
           { value: 'AA' },
           { value: 'B' }
         ],
-        errors: {}
+        log: {}
       )
     end
   end
@@ -64,13 +64,13 @@ RSpec.describe Etl::Transform do
         t.add_metadata :character, ->(r) { r[:field_1] }
       end
 
-      expect(transform.call(records: data, errors: {})).to eq(
+      expect(transform.call(records: data, log: {})).to eq(
         records: [
           { metadata: { character: 'a' } },
           { metadata: { character: 'a' } },
           { metadata: { character: 'b' } }
         ],
-        errors: {}
+        log: {}
       )
     end
 
@@ -80,13 +80,13 @@ RSpec.describe Etl::Transform do
         t.add_metadata :number, ->(r) { r[:field_2] }
       end
 
-      expect(transform.call(records: data, errors: {})).to eq(
+      expect(transform.call(records: data, log: {})).to eq(
         records: [
           { metadata: { character: 'a', number: '1' } },
           { metadata: { character: 'a', number: '2' } },
           { metadata: { character: 'b', number: '1' } }
         ],
-        errors: {}
+        log: {}
       )
     end
 
@@ -95,13 +95,13 @@ RSpec.describe Etl::Transform do
         t.add_metadata :value, ->(r) { r[:field_1].upcase * r[:field_2].to_i }
       end
 
-      expect(transform.call(records: data, errors: {})).to eq(
+      expect(transform.call(records: data, log: {})).to eq(
         records: [
           { metadata: { value: 'A' } },
           { metadata: { value: 'AA' } },
           { metadata: { value: 'B' } }
         ],
-        errors: {}
+        log: {}
       )
     end
   end
@@ -113,13 +113,13 @@ RSpec.describe Etl::Transform do
         t.add_metadata :number, ->(r) { r[:field_2].to_i }
       end
 
-      expect(transform.call(records: data, errors: {})).to eq(
+      expect(transform.call(records: data, log: {})).to eq(
         records: [
           { value: 'A', metadata: { number: 1 } },
           { value: 'AA', metadata: { number: 2 } },
           { value: 'B', metadata: { number: 1 } }
         ],
-        errors: {}
+        log: {}
       )
     end
   end
@@ -133,10 +133,10 @@ RSpec.describe Etl::Transform do
         t.add_field :value, value_transformation
       end
     end
-    let(:transformed_data) { transform.call(records: data, errors: Hash.new(0)) }
+    let(:transformed_data) { transform.call(records: data, log: Hash.new(0)) }
 
     it 'are logged in the errors object' do
-      expect(transformed_data[:errors]).to eq(
+      expect(transformed_data[:log]).to eq(
         'RuntimeError: invalid: 1' => 1,
         'RuntimeError: invalid: 2' => 1
       )

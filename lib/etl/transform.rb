@@ -7,12 +7,12 @@ module Etl
       yield(self) if block_given?
     end
 
-    def call(records:, errors:)
-      errors = errors.dup
+    def call(records:, log:)
+      log = log.dup
       transformed_records = records.map do |record|
-        capture_errors(errors) { transform(record) }
+        log_errors(log) { transform(record) }
       end.compact
-      { records: transformed_records, errors: errors }
+      { records: transformed_records, log: log }
     end
 
     def add_field(name, proc)
@@ -25,11 +25,11 @@ module Etl
 
     private
 
-    def capture_errors(errors)
+    def log_errors(log)
       yield
     rescue => e
       error_description = [e.class.to_s, e.message].uniq.compact.join(': ')
-      errors[error_description] += 1
+      log[error_description] += 1
       nil
     end
 

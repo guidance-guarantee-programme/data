@@ -38,5 +38,5 @@ And(/^our stored dataset has date dimensions for the period "([^"]*)" to "([^"]*
 end
 
 Then(/^errors during the transformation process are logged$/) do
-  expect(@results[:errors]).to eq("ActiveRecord::RecordNotFound: Couldn't find Dimensions::Date" => 5)
+  expect(@results[:log]).to eq("ActiveRecord::RecordNotFound: Couldn't find Dimensions::Date" => 5)
 end

@@ -21,7 +21,7 @@ class BookingBug
   # Allow subset of actions to be run by specifying the number of actions to be performed.
   # Defaults to all actions
   def call(actions_to_perform: actions.count)
-    actions[0..actions_to_perform - 1].inject(records: [], errors: Hash.new(0)) do |data, action|
+    actions[0..actions_to_perform - 1].inject(records: [], log: Hash.new(0)) do |data, action|
       action.call(data)
     end
   end
@@ -36,7 +36,9 @@ class BookingBug
         base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
         connection: BookingBugConnection.new(config: BookingBug.config)
       ),
-      Etl::Filter.new { |record| Facts::Booking.where(reference_number: record['id']).empty? },
+      Etl::Filter.new(filter_name: 'Existing ID') do |record|
+        Facts::Booking.where(reference_number: record['id']).empty?
+      end,
       Etl::Transform.new do |t|
         t.add_field(
           :date_dimension,

@@ -1,7 +1,6 @@
 Feature: Transforming booking data
   Have the data in a format that can be saved successfully
 
-
   @vcr_booking_bug_all
   Scenario: Data from the booking system is transformed ready for saving
     Given the booking system contains booking data
