@@ -13,8 +13,8 @@ module Etl
       raise UnableToAuthenticate, e.message
     end
 
-    def call
-      bookings = []
+    def call(bookings = [])
+      bookings = bookings.dup
       url = @base_path
 
       while url
