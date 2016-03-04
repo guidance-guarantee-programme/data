@@ -21,18 +21,32 @@ class BookingBug
   # Allow subset of actions to be run by specifying the number of actions to be performed.
   # Defaults to all actions
   def call(actions_to_perform: actions.count)
-    actions[0..actions_to_perform - 1].inject([]) do |data, action|
+    actions[0..actions_to_perform - 1].inject(records: [], log: Hash.new(0)) do |data, action|
       action.call(data)
     end
   end
 
+  # Each 'action' is implemented with an interface which take an input of:
+  #   { records: <Array>, errors: Hash.new(0) }
+  # and returns a hash in the same format.
+  # rubocop:disable MethodLength, AbcSize
   def actions
     @actions ||= [
       Etl::Api.new(
         base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
         connection: BookingBugConnection.new(config: BookingBug.config)
       ),
-      Etl::Filter.new { |record| Facts::Booking.where(reference_number: record['id']).empty? }
+      Etl::Filter.new(filter_name: 'Existing ID') do |record|
+        Facts::Booking.where(reference_number: record['id']).empty?
+      end,
+      Etl::Transform.new do |t|
+        t.add_field(
+          :date_dimension,
+          ->(record) { Dimensions::Date.find_by!(date: Date.parse(record['datetime'])) }
+        )
+        t.add_metadata(:reference_number, ->(record) { record['id'] })
+      end
     ]
   end
+  # rubocop:enable MethodLength, AbcSize
 end
