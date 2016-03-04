@@ -8,10 +8,11 @@ module Etl
       @filter = block
     end
 
-    def call(records)
-      records.select do |record|
+    def call(records:, errors:)
+      filtered_records = records.select do |record|
         @filter.call(record)
       end
+      { records: filtered_records, errors: errors }
     end
   end
 end

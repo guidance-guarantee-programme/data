@@ -21,11 +21,15 @@ class BookingBug
   # Allow subset of actions to be run by specifying the number of actions to be performed.
   # Defaults to all actions
   def call(actions_to_perform: actions.count)
-    actions[0..actions_to_perform - 1].inject([]) do |data, action|
+    actions[0..actions_to_perform - 1].inject(records: [], errors: Hash.new(0)) do |data, action|
       action.call(data)
     end
   end
 
+  # Each 'action' is implemented with an interface which take an input of:
+  #   { records: <Array>, errors: Hash.new(0) }
+  # and returns a hash in the same format.
+  # rubocop:disable MethodLength, AbcSize
   def actions
     @actions ||= [
       Etl::Api.new(
@@ -42,4 +46,5 @@ class BookingBug
       end
     ]
   end
+  # rubocop:enable MethodLength, AbcSize
 end

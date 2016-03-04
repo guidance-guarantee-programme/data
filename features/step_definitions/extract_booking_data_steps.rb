@@ -3,12 +3,12 @@ Given(/^the booking system contains booking data$/) do
 end
 
 When(/^a list of bookings is requested from the booking api$/) do
-  @bookings = BookingBug.new.call(actions_to_perform: 1)
+  @results = BookingBug.new.call(actions_to_perform: 1)
 end
 
 Then(/^a list of bookings is extracted from the booking api$/) do
-  expect(@bookings).to be_a(Array)
-  expect(@bookings.count).to eq(1444)
+  expect(@results[:records]).to be_a(Array)
+  expect(@results[:records].count).to eq(1444)
 end
 
 When(/^booking data is extracted from the booking api$/) do

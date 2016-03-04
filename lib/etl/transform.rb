@@ -7,10 +7,12 @@ module Etl
       yield(self) if block_given?
     end
 
-    def call(records)
-      records.map do |record|
-        transform(record)
-      end
+    def call(records:, errors:)
+      errors = errors.dup
+      transformed_records = records.map do |record|
+        capture_errors(errors) { transform(record) }
+      end.compact
+      { records: transformed_records, errors: errors }
     end
 
     def add_field(name, proc)
@@ -22,6 +24,14 @@ module Etl
     end
 
     private
+
+    def capture_errors(errors)
+      yield
+    rescue => e
+      error_description = [e.class.to_s, e.message].uniq.compact.join(': ')
+      errors[error_description] += 1
+      nil
+    end
 
     def transform(record)
       response = Hash.new { |h, k| h[k] = {} }
