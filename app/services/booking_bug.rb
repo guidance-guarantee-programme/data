@@ -45,7 +45,8 @@ class BookingBug
           ->(record) { Dimensions::Date.find_by!(date: Date.parse(record['datetime'])) }
         )
         t.add_metadata(:reference_number, ->(record) { record['id'] })
-      end
+      end,
+      Etl::Saver.new(klass: Facts::Booking)
     ]
   end
   # rubocop:enable MethodLength, AbcSize
