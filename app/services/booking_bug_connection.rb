@@ -20,6 +20,7 @@ class BookingBugConnection
       conn.get do |req|
         req.url url
         req.params['per_page'] = 100
+        req.params['include_cancelled'] = true
         req.headers['App-Id'] = app_id
         req.headers['App-Key'] = api_key
         req.headers['Auth-Token'] = auth_token
