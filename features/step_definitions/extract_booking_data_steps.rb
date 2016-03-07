@@ -12,5 +12,5 @@ Then(/^a list of bookings is extracted from the booking api$/) do
 end
 
 When(/^booking data is extracted from the booking api$/) do
-  BookingBug.new.call
+  @results = BookingBug.new.call
 end

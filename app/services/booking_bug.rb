@@ -42,10 +42,11 @@ class BookingBug
       Etl::Transform.new do |t|
         t.add_field(
           :date_dimension,
-          ->(record) { Dimensions::Date.find_by!(date: Date.parse(record['datetime'])) }
+          ->(record) { Dimensions::Date.find_by!(date: Date.parse(record['created_at'])) }
         )
         t.add_metadata(:reference_number, ->(record) { record['id'] })
-      end
+      end,
+      Etl::Loader.new(klass: Facts::Booking)
     ]
   end
   # rubocop:enable MethodLength, AbcSize
