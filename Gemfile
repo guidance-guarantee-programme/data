@@ -9,6 +9,7 @@ gem 'faraday'
 gem 'faraday_middleware'
 
 group :development do
+  gem 'overcommit', require: false
   gem 'rake'
   gem 'rubocop', require: false
   gem 'travis', require: false
