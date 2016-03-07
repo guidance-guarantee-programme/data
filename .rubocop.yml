@@ -13,3 +13,6 @@ Metrics/LineLength:
 
 Rails:
   Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
