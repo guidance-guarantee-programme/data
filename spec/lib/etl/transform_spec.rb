@@ -11,16 +11,16 @@ RSpec.describe Etl::Transform do
   end
 
   describe '#add_field' do
-    it 'add an output field to the transformed data' do
+    it 'add a data field to the transformed data' do
       transform = described_class.new do |t|
         t.add_field :character, ->(r) { r[:field_1] }
       end
 
       expect(transform.call(records: data, log: {})).to eq(
         records: [
-          { character: 'a' },
-          { character: 'a' },
-          { character: 'b' }
+          { data: { character: 'a' } },
+          { data: { character: 'a' } },
+          { data: { character: 'b' } }
         ],
         log: {}
       )
@@ -34,9 +34,9 @@ RSpec.describe Etl::Transform do
 
       expect(transform.call(records: data, log: {})).to eq(
         records: [
-          { character: 'a', number: '1' },
-          { character: 'a', number: '2' },
-          { character: 'b', number: '1' }
+          { data: { character: 'a', number: '1' } },
+          { data: { character: 'a', number: '2' } },
+          { data: { character: 'b', number: '1' } }
         ],
         log: {}
       )
@@ -49,26 +49,26 @@ RSpec.describe Etl::Transform do
 
       expect(transform.call(records: data, log: {})).to eq(
         records: [
-          { value: 'A' },
-          { value: 'AA' },
-          { value: 'B' }
+          { data: { value: 'A' } },
+          { data: { value: 'AA' } },
+          { data: { value: 'B' } }
         ],
         log: {}
       )
     end
   end
 
-  describe '#add_metadata' do
-    it 'add a metadata field to the transformed data' do
+  describe '#add_key_field' do
+    it 'add a key field to the transformed data' do
       transform = described_class.new do |t|
-        t.add_metadata :character, ->(r) { r[:field_1] }
+        t.add_key_field :character, ->(r) { r[:field_1] }
       end
 
       expect(transform.call(records: data, log: {})).to eq(
         records: [
-          { metadata: { character: 'a' } },
-          { metadata: { character: 'a' } },
-          { metadata: { character: 'b' } }
+          { keys: { character: 'a' } },
+          { keys: { character: 'a' } },
+          { keys: { character: 'b' } }
         ],
         log: {}
       )
@@ -76,15 +76,15 @@ RSpec.describe Etl::Transform do
 
     it 'supports multiple output fields' do
       transform = described_class.new do |t|
-        t.add_metadata :character, ->(r) { r[:field_1] }
-        t.add_metadata :number, ->(r) { r[:field_2] }
+        t.add_key_field :character, ->(r) { r[:field_1] }
+        t.add_key_field :number, ->(r) { r[:field_2] }
       end
 
       expect(transform.call(records: data, log: {})).to eq(
         records: [
-          { metadata: { character: 'a', number: '1' } },
-          { metadata: { character: 'a', number: '2' } },
-          { metadata: { character: 'b', number: '1' } }
+          { keys: { character: 'a', number: '1' } },
+          { keys: { character: 'a', number: '2' } },
+          { keys: { character: 'b', number: '1' } }
         ],
         log: {}
       )
@@ -92,32 +92,32 @@ RSpec.describe Etl::Transform do
 
     it 'allows more complex transformations' do
       transform = described_class.new do |t|
-        t.add_metadata :value, ->(r) { r[:field_1].upcase * r[:field_2].to_i }
+        t.add_key_field :value, ->(r) { r[:field_1].upcase * r[:field_2].to_i }
       end
 
       expect(transform.call(records: data, log: {})).to eq(
         records: [
-          { metadata: { value: 'A' } },
-          { metadata: { value: 'AA' } },
-          { metadata: { value: 'B' } }
+          { keys: { value: 'A' } },
+          { keys: { value: 'AA' } },
+          { keys: { value: 'B' } }
         ],
         log: {}
       )
     end
   end
 
-  describe 'metadata and fields' do
-    it 'can be a mis of the two' do
+  describe 'keys and data fields' do
+    it 'can be used together' do
       transform = described_class.new do |t|
         t.add_field :value, ->(r) { r[:field_1].upcase * r[:field_2].to_i }
-        t.add_metadata :number, ->(r) { r[:field_2].to_i }
+        t.add_key_field :number, ->(r) { r[:field_2].to_i }
       end
 
       expect(transform.call(records: data, log: {})).to eq(
         records: [
-          { value: 'A', metadata: { number: 1 } },
-          { value: 'AA', metadata: { number: 2 } },
-          { value: 'B', metadata: { number: 1 } }
+          { data: { value: 'A' }, keys: { number: 1 } },
+          { data: { value: 'AA' }, keys: { number: 2 } },
+          { data: { value: 'B' }, keys: { number: 1 } }
         ],
         log: {}
       )
@@ -145,7 +145,7 @@ RSpec.describe Etl::Transform do
     it 'do not return the records with the error' do
       expect(transformed_data[:records]).to eq(
         [
-          { value: 'winner: b' }
+          { data: { value: 'winner: b' } }
         ]
       )
     end

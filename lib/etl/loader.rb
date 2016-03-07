@@ -6,7 +6,6 @@ module Etl
 
     def initialize(klass:)
       @klass = klass
-      @flatten_metadata = !klass.column_names.include?(:metadata)
     end
 
     def call(records:, log:)
@@ -20,12 +19,12 @@ module Etl
     private
 
     def save(record)
-      if @flatten_metadata
-        data = record.dup
-        metadata = data.delete(:metadata)
-        @klass.create!(data.merge(metadata))
+      data = record[:data]
+      keys = record[:keys]
+      if (record = @klass.find_by(keys)) # check for existing record
+        record.update_attributes!(data)
       else
-        @klass.create!(record)
+        @klass.create!(data.merge(keys))
       end
     end
   end

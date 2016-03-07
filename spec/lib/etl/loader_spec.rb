@@ -3,13 +3,14 @@ require 'etl/loader'
 
 RSpec.describe Etl::Loader do
   subject { described_class.new(klass: klass) }
-  let(:klass) { double(:klass, create!: true, column_names: []) }
-  let(:record) { { date_dimension: double(:date_dimension), metadata: { id: 123 } } }
+  let(:klass) { double(:klass, create!: true, column_names: [], find_by: found_record) }
+  let(:record) { { data: { date_dimension: double(:date_dimension) }, keys: { id: 123 } } }
   let(:data) { [record] }
 
-  context 'klass without metadata column' do
-    it 'flattens teh field and metadata prior to storage' do
-      expect(klass).to receive(:create!).with(date_dimension: record[:date_dimension], id: 123)
+  context 'when new record' do
+    let(:found_record) { nil }
+    it 'flattens the data and keys prior to storage' do
+      expect(klass).to receive(:create!).with(date_dimension: record[:data][:date_dimension], id: 123)
       subject.call(records: data, log: {})
     end
 
@@ -19,16 +20,23 @@ RSpec.describe Etl::Loader do
     end
   end
 
-  context 'klass with metadata column' do
-    before { klass.column_names << :metadata }
+  context 'when existing record' do
+    let(:found_record) { double(:record, update_attributes!: true) }
 
-    it 'stores the record as is' do
-      expect(klass).to receive(:create!).with(record)
+    it 'flattens the data and keys prior to storage' do
+      expect(found_record).to receive(:update_attributes!).with(date_dimension: record[:data][:date_dimension])
       subject.call(records: data, log: {})
+    end
+
+    it 'calls once per update once per record' do
+      expect(found_record).to receive(:update_attributes!).twice
+      subject.call(records: [record, record], log: {})
     end
   end
 
   context 'error during save' do
+    let(:found_record) { nil }
+
     it 'is logged' do
       allow(klass).to receive(:create!).and_raise('save error')
 
