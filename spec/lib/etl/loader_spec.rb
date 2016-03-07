@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'etl/saver'
+require 'etl/loader'
 
-RSpec.describe Etl::Saver do
+RSpec.describe Etl::Loader do
   subject { described_class.new(klass: klass) }
   let(:klass) { double(:klass, create!: true, column_names: []) }
   let(:record) { { date_dimension: double(:date_dimension), metadata: { id: 123 } } }

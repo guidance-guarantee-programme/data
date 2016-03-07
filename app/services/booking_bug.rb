@@ -46,7 +46,7 @@ class BookingBug
         )
         t.add_metadata(:reference_number, ->(record) { record['id'] })
       end,
-      Etl::Saver.new(klass: Facts::Booking)
+      Etl::Loader.new(klass: Facts::Booking)
     ]
   end
   # rubocop:enable MethodLength, AbcSize

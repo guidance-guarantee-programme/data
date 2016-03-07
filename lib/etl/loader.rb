@@ -1,7 +1,7 @@
 require 'etl/errors'
 
 module Etl
-  class Saver
+  class Loader
     include Etl::Errors
 
     def initialize(klass:)
