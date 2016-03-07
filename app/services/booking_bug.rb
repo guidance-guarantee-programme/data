@@ -46,7 +46,8 @@ class BookingBug
         )
         t.add_key_field(:reference_number, ->(record) { record['id'] })
       end,
-      ETL::Loader.new(klass: Facts::Booking)
+      Etl::Loader.new(klass: Facts::Booking),
+      Etl::LogSaver.new(importer: 'BookingBug')
     ]
   end
   # rubocop:enable MethodLength, AbcSize

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160301145407) do
+ActiveRecord::Schema.define(version: 20160307161938) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,6 +50,14 @@ ActiveRecord::Schema.define(version: 20160301145407) do
 
   add_index "facts_bookings", ["dimensions_date_id"], name: "index_facts_bookings_on_dimensions_date_id", using: :btree
   add_index "facts_bookings", ["reference_number"], name: "index_facts_bookings_on_reference_number", unique: true, using: :btree
+
+  create_table "imports", force: :cascade do |t|
+    t.string   "importer"
+    t.integer  "inserted_records"
+    t.jsonb    "log"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+  end
 
   add_foreign_key "facts_bookings", "dimensions_dates"
 end

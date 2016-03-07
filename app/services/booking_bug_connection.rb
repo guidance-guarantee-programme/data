@@ -7,23 +7,21 @@ class BookingBugConnection
   end
 
   def auth_token
+    Rails.logger.info('BookingBugConnection') { 'Retrieving authorisation token' }
     conn.post do |req|
       req.url '/api/v1/login'
-      req.headers['App-Id'] = app_id
-      req.headers['App-Key'] = api_key
+      req.headers = { 'App-Id' => app_id, 'App-Key' => api_key }
       req.body = credentials
     end.body['auth_token']
   end
 
   def page(url, auth_token)
+    Rails.logger.info('BookingBugConnection') { "Retrieving page data from: #{url}" }
     PageWrapper.new(
       conn.get do |req|
         req.url url
-        req.params['per_page'] = 100
-        req.params['include_cancelled'] = true
-        req.headers['App-Id'] = app_id
-        req.headers['App-Key'] = api_key
-        req.headers['Auth-Token'] = auth_token
+        req.params.merge!('include_cancelled' => true, 'per_page' => 100)
+        req.headers = { 'App-Id' => app_id, 'App-Key' => api_key, 'Auth-Token' => auth_token }
       end.body
     )
   end
