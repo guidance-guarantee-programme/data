@@ -1,5 +1,5 @@
 module Etl
-  class UnableToAuthenticate < StandardError; end
+  UnableToAuthenticate = Class.new(StandardError)
 
   class Api
     def initialize(base_path:, connection:)

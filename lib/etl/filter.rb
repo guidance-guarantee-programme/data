@@ -1,5 +1,6 @@
 module Etl
-  class MissingFilterBlock < StandardError; end
+  MissingFilterBlock = Class.new(StandardError)
+
   class Filter
     def initialize(filter_name: nil, &block)
       @filter_name = filter_name
