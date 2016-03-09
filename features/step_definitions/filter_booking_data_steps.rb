@@ -22,5 +22,4 @@ end
 
 Then(/^only new entries are returned$/) do
   expect(@results[:records].detect { |b| @created_booking_ids.include?(b['id']) }).to be_nil
-  expect(@results[:records].count).to eq(1444 - @created_booking_ids.count)
 end

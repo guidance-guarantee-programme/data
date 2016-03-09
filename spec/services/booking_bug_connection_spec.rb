@@ -48,7 +48,7 @@ RSpec.describe BookingBugConnection do
         'App-Key' => '1962b5a78fca8b79351e969c5832bf60',
         'Auth-Token' => '12345'
       )
-      expect(fake_request.params).to eq('per_page' => 100)
+      expect(fake_request.params).to eq('per_page' => 100, 'include_cancelled' => true)
     end
   end
 end
