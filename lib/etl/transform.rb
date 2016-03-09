@@ -6,7 +6,7 @@ module Etl
 
     def initialize
       @fields = []
-      @metadata = []
+      @keys = []
 
       yield(self) if block_given?
     end
@@ -23,16 +23,16 @@ module Etl
       @fields << { name: name, proc: proc }
     end
 
-    def add_metadata(name, proc)
-      @metadata << { name: name, proc: proc }
+    def add_key_field(name, proc)
+      @keys << { name: name, proc: proc }
     end
 
     private
 
     def transform(record)
       response = Hash.new { |h, k| h[k] = {} }
-      @fields.each { |field| response[field[:name]] = field[:proc].call(record) }
-      @metadata.each { |field| response[:metadata][field[:name]] = field[:proc].call(record) }
+      @fields.each { |field| response[:data][field[:name]] = field[:proc].call(record) }
+      @keys.each { |field| response[:keys][field[:name]] = field[:proc].call(record) }
       response
     end
   end

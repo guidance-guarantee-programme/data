@@ -44,7 +44,7 @@ class BookingBug
           :date_dimension,
           ->(record) { Dimensions::Date.find_by!(date: Date.parse(record['created_at'])) }
         )
-        t.add_metadata(:reference_number, ->(record) { record['id'] })
+        t.add_key_field(:reference_number, ->(record) { record['id'] })
       end,
       Etl::Loader.new(klass: Facts::Booking)
     ]
