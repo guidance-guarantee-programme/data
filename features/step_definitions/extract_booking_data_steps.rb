@@ -20,8 +20,7 @@ Then(/^a list of bookings is extracted from the booking api$/) do
     key.merge(count: records.count)
   end
 
-  # use include here as it will continue to grow if data from BookingBug is refreshed
-  expect(count_by_date_and_state).to include(
+  expected_fact_summary = [
     { date: '2015-02-04', cancelled: true, count: 1 },
     { date: '2015-02-09', cancelled: true, count: 1 },
     { date: '2015-02-11', cancelled: false, count: 1 },
@@ -42,8 +41,11 @@ Then(/^a list of bookings is extracted from the booking api$/) do
     { date: '2015-02-25', cancelled: false, count: 58 },
     { date: '2015-02-25', cancelled: true, count: 58 },
     { date: '2015-02-26', cancelled: true, count: 61 },
-    date: '2015-02-26', cancelled: false, count: 56
-  )
+    { date: '2015-02-26', cancelled: false, count: 56 }
+  ]
+
+  # use include here as it will continue to grow if data from BookingBug is refreshed
+  expect(count_by_date_and_state).to include(*expected_fact_summary)
 end
 
 When(/^booking data is extracted from the booking api$/) do
