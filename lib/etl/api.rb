@@ -1,7 +1,7 @@
-module Etl
+module ETL
   UnableToAuthenticate = Class.new(StandardError)
 
-  class Api
+  class API
     def initialize(base_path:, connection:)
       @base_path = base_path
       @connection = connection

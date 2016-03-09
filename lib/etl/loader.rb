@@ -1,8 +1,8 @@
 require 'etl/errors'
 
-module Etl
+module ETL
   class Loader
-    include Etl::Errors
+    include ETL::Errors
 
     def initialize(klass:)
       @klass = klass

@@ -1,4 +1,4 @@
-module Etl
+module ETL
   MissingFilterBlock = Class.new(StandardError)
 
   class Filter

@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'etl/transform'
 
-RSpec.describe Etl::Transform do
+RSpec.describe ETL::Transform do
   let(:data) do
     [
       { field_1: 'a', field_2: '1' },

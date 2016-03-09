@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'etl/loader'
 
-RSpec.describe Etl::Loader do
+RSpec.describe ETL::Loader do
   subject { described_class.new(klass: klass) }
   let(:klass) { double(:klass, create!: true, column_names: [], find_by: found_record) }
   let(:record) { { data: { date_dimension: double(:date_dimension) }, keys: { id: 123 } } }

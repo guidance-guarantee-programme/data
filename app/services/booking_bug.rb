@@ -32,21 +32,21 @@ class BookingBug
   # rubocop:disable MethodLength, AbcSize
   def actions
     @actions ||= [
-      Etl::Api.new(
+      ETL::API.new(
         base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
         connection: BookingBugConnection.new(config: BookingBug.config)
       ),
-      Etl::Filter.new(filter_name: 'Existing ID') do |record|
+      ETL::Filter.new(filter_name: 'Existing ID') do |record|
         Facts::Booking.where(reference_number: record['id']).empty?
       end,
-      Etl::Transform.new do |t|
+      ETL::Transform.new do |t|
         t.add_field(
           :date_dimension,
           ->(record) { Dimensions::Date.find_by!(date: Date.parse(record['created_at'])) }
         )
         t.add_key_field(:reference_number, ->(record) { record['id'] })
       end,
-      Etl::Loader.new(klass: Facts::Booking)
+      ETL::Loader.new(klass: Facts::Booking)
     ]
   end
   # rubocop:enable MethodLength, AbcSize

@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'etl/api'
 
-RSpec.describe Etl::Api do
+RSpec.describe ETL::API do
   subject do
     described_class.new(
       base_path: '/api/v1/admin/37004/bookings',
@@ -32,7 +32,7 @@ RSpec.describe Etl::Api do
     context 'when login is not successful' do
       it 'raise an error' do
         allow(fake_connection).to receive(:auth_token).and_raise(StandardError, '401 Unauthorized')
-        expect { subject.auth_token }.to raise_error(Etl::UnableToAuthenticate, '401 Unauthorized')
+        expect { subject.auth_token }.to raise_error(ETL::UnableToAuthenticate, '401 Unauthorized')
       end
     end
   end

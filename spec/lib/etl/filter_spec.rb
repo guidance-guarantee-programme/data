@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'etl/filter'
 
-RSpec.describe Etl::Filter do
+RSpec.describe ETL::Filter do
   let(:data) do
     [
       { field_1: 'a', field_2: '1' },
@@ -64,6 +64,6 @@ RSpec.describe Etl::Filter do
   end
 
   it 'raises an error if no filter block is passed in' do
-    expect { described_class.new }.to raise_error(Etl::MissingFilterBlock)
+    expect { described_class.new }.to raise_error(ETL::MissingFilterBlock)
   end
 end

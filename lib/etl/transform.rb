@@ -1,8 +1,8 @@
 require 'etl/errors'
 
-module Etl
+module ETL
   class Transform
-    include Etl::Errors
+    include ETL::Errors
 
     def initialize
       @fields = []

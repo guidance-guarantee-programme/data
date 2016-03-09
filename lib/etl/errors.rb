@@ -1,4 +1,4 @@
-module Etl
+module ETL
   module Errors
     def log_errors(log)
       yield
