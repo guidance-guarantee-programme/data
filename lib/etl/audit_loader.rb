@@ -1,14 +1,13 @@
 require 'etl/errors'
 
-module Etl
-  class LogSaver
-    def initialize(importer:)
-      @importer = importer
+module ETL
+  class AuditLoader
+    def initialize(audit_dimension:)
+      @audit_dimension = audit_dimension
     end
 
     def call(records:, log:)
-      Import.create!(
-        importer: @importer,
+      @audit_dimension.update_attributes!(
         inserted_records: records.count,
         log: log
       )

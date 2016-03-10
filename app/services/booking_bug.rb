@@ -26,11 +26,20 @@ class BookingBug
     end
   end
 
+  def build_audit_dimension
+    Dimensions::Audit.create(
+      fact_table: 'Facts::Bookings',
+      source: 'BookingBug',
+      source_type: 'api'
+    )
+  end
+
   # Each 'action' is implemented with an interface which take an input of:
   #   { records: <Array>, errors: Hash.new(0) }
   # and returns a hash in the same format.
   # rubocop:disable MethodLength, AbcSize
   def actions
+    audit_dimension = build_audit_dimension
     @actions ||= [
       ETL::API.new(
         base_path: "/api/v1/admin/#{BookingBug.config.company_id}/bookings",
@@ -44,10 +53,14 @@ class BookingBug
           :date_dimension,
           ->(record) { Dimensions::Date.find_by!(date: Date.parse(record['created_at'])) }
         )
+        t.add_field(
+          :audit_dimension,
+          ->(_) { audit_dimension }
+        )
         t.add_key_field(:reference_number, ->(record) { record['id'] })
       end,
-      Etl::Loader.new(klass: Facts::Booking),
-      Etl::LogSaver.new(importer: 'BookingBug')
+      ETL::Loader.new(klass: Facts::Booking),
+      ETL::AuditLoader.new(audit_dimension: audit_dimension)
     ]
   end
   # rubocop:enable MethodLength, AbcSize

@@ -2,6 +2,12 @@ require 'rails_helper'
 
 RSpec.describe Facts::Booking, type: :model do
   it do
+    is_expected.to belong_to(:audit_dimension)
+      .class_name('Dimensions::Audit')
+      .with_foreign_key(:dimensions_audit_id)
+  end
+
+  it do
     is_expected.to belong_to(:date_dimension)
       .class_name('Dimensions::Date')
       .with_foreign_key(:dimensions_date_id)
