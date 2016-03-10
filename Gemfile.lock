@@ -52,6 +52,9 @@ GEM
       xpath (~> 2.0)
     childprocess (0.5.9)
       ffi (~> 1.0, >= 1.0.11)
+    clockwork (1.2.0)
+      activesupport
+      tzinfo
     coderay (1.1.1)
     concurrent-ruby (1.0.1)
     crack (0.4.3)
@@ -230,6 +233,7 @@ PLATFORMS
 
 DEPENDENCIES
   bugsnag
+  clockwork
   cucumber-rails
   database_cleaner
   dotenv-rails
