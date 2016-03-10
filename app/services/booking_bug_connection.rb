@@ -7,7 +7,6 @@ class BookingBugConnection
   end
 
   def auth_token
-    Rails.logger.info('BookingBugConnection') { 'Retrieving authorisation token' }
     conn.post do |req|
       req.url '/api/v1/login'
       req.headers = { 'App-Id' => app_id, 'App-Key' => api_key }
@@ -16,7 +15,6 @@ class BookingBugConnection
   end
 
   def page(url, auth_token)
-    Rails.logger.info('BookingBugConnection') { "Retrieving page data from: #{url}" }
     PageWrapper.new(
       conn.get do |req|
         req.url url
@@ -31,6 +29,7 @@ class BookingBugConnection
   def conn
     @conn ||= Faraday.new(url: "https://#{@config.environment}.bookingbug.com") do |builder|
       builder.use Faraday::Response::RaiseError
+      builder.use ResponseLogger, Rails.logger
       builder.use FaradayMiddleware::ParseJson, content_type: /\bjson$/
       builder.adapter Faraday.default_adapter
     end
