@@ -31,7 +31,7 @@ class BookingBugConnection
   private
 
   def conn
-    @conn ||= Faraday.new(url: "https://#{@config.environment}.bookingbug.com") do |builder|
+    @conn ||= Faraday.new(url: "https://#{@config.domain}") do |builder|
       builder.use Faraday::Response::RaiseError
       builder.use FaradayMiddleware::ParseJson, content_type: /\bjson$/
       builder.adapter Faraday.default_adapter
