@@ -28,6 +28,15 @@ $ ./bin/setup
 ```
 
 
+## Usage
+
+To start the application:
+
+```sh
+$ ./bin/foreman s
+```
+
+
 [bundler]: http://bundler.io
 [git]: https://git-scm.com
 [pension wise]: https://www.pensionwise.gov.uk
