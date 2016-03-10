@@ -40,6 +40,8 @@ GEM
     arel (6.0.3)
     ast (2.2.0)
     backports (3.6.8)
+    bugsnag (3.0.0)
+      json (~> 1.7, >= 1.7.7)
     builder (3.2.2)
     capybara (2.6.2)
       addressable
@@ -227,6 +229,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bugsnag
   cucumber-rails
   database_cleaner
   dotenv-rails
