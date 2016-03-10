@@ -9,6 +9,7 @@ gem 'bugsnag'
 gem 'clockwork'
 gem 'faraday'
 gem 'faraday_middleware'
+gem 'foreman'
 
 group :development do
   gem 'overcommit', require: false
