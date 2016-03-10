@@ -1,11 +1,17 @@
 require_relative './config/application'
 
-require 'cucumber/rake/task'
-require 'rubocop/rake_task'
-
 Rails.application.load_tasks
 
-Cucumber::Rake::Task.new
-RuboCop::RakeTask.new
+begin
+  require 'cucumber/rake/task'
+  Cucumber::Rake::Task.new
+rescue LoadError
+end
+
+begin
+  require 'rubocop/rake_task'
+  RuboCop::RakeTask.new
+rescue LoadError
+end
 
 task default: %i(spec cucumber rubocop)
