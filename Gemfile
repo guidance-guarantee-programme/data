@@ -31,3 +31,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'rspec-rails'
 end
+
+group :staging, :production do
+  gem 'rails_12factor'
+end
