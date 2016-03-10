@@ -8,3 +8,10 @@ rvm:
 - 2.3.0
 before_script:
 - "./bin/rake db:setup RAILS_ENV=test"
+deploy:
+  provider: heroku
+  api_key:
+    secure: EmgSexQs5anGHJccSSNsPWG0WSQWUrgFfLuPiE+h1UtExWyuvIxl8b0mjpXnR43DsfsIkQ9ObqSmCi7dfuUniodTxWP8d0d1u+yoKhIAVwgUOiEj5jIIK+hXiQOlVyIEIzmBIClnWXkMbx1tseCxSnXtucy85wcP8wSmj6KxA7MQxWBhkTN6rrM+rY44SQXNgyvj2Quu32DGFB9P8G8zlMdq/ywMekErv5heXTCl79z12B0mfVc6ShLryKkcrt39aSbC29YlEpOCBdhimt4Vjn9phwI9I553hQ+GIJxWSTgfVko62WPRN0LPbqH8l+vzSySNOTV46oSz+djy5AdJeyYl9kH1ATb1A66GgSwEk+TlpfGFNrgcaZgJjoNe3ay/zqqoyB5U4lQBDAE89ekAOpElVtOaOWmRF6VscLrsmehh9rwu8TjQdHZjaUwfcYaZViN7iqqfupOyvac8S9JQF6sBEzP1aq/u416fXxudLgh5tYCq9/lE1xA6rD0Enc89wD0fdXd97V1X1lFPR8HHu2piMP4K3nlLZQCw7/botu8dMRZyoJolfqloljgoomQ9acJXMnSItUXIpnBNfQrvHFBkfSFWpS+09rR1PDXh0Urwd8mAmKQyO8eIVWKgqjWi4yYxbDhdX/SVKDEpjtGDside+5SUjG2uXrKShszQwWk=
+  app: staging-data-pensionwise
+  on:
+    repo: guidance-guarantee-programme/data
