@@ -32,9 +32,9 @@ module TransformBookingDataHelper
   end
 end
 
-And(/^our stored dataset has date dimensions for the period "([^"]*)" to "([^"]*)"$/) do |from, to|
-  begin_date = Date.parse(from)
-  end_date = Date.parse(to)
+And(/^our stored dataset has date dimensions for the period "([^"]*)" to "([^"]*)"$/) do |begin_date, end_date|
+  begin_date = Date.parse(begin_date)
+  end_date = Date.parse(end_date)
 
   PopulateDateDimension.new(begin_date: begin_date, end_date: end_date).call
 end
