@@ -1,5 +1,5 @@
 When(/^the booking bug data is transformed$/) do
-  @results = BookingBug.new.call(actions_to_perform: 3)
+  @results = BookingBug::Bookings.new.call(actions_to_perform: 3)
 end
 
 Then(/^the booking bug data is ready to be saved$/) do
@@ -32,12 +32,10 @@ module TransformBookingDataHelper
 end
 
 And(/^our stored dataset has date dimensions for the period "([^"]*)" to "([^"]*)"$/) do |from, to|
-  from_date = Date.parse(from)
-  to_date = Date.parse(to)
+  begin_date = Date.parse(from)
+  end_date = Date.parse(to)
 
-  (from_date..to_date).each do |date|
-    Dimensions::DateBuilder.new(date.year, date.month, date.day).date_dimension.save!
-  end
+  PopulateDateDimension.new(begin_date: begin_date, end_date: end_date).call
 end
 
 Then(/^errors during the transformation process are logged$/) do
