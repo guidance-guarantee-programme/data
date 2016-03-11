@@ -21,7 +21,7 @@ Given(/^the booking bug data has new entries since the last extract$/) do
 end
 
 When(/^the booking bug data is filtered$/) do
-  @results = BookingBug.new.call(actions_to_perform: 2)
+  @results = BookingBug::Bookings.new.call(actions_to_perform: 2)
 end
 
 Then(/^only new entries are returned$/) do

@@ -3,7 +3,7 @@ Given(/^the booking system contains booking data$/) do
 end
 
 When(/^a list of bookings is requested from the booking api$/) do
-  @results = BookingBug.new.call(actions_to_perform: 1)
+  @results = BookingBug::Bookings.new.call(actions_to_perform: 1)
 end
 
 Then(/^a list of bookings is extracted from the booking api$/) do
@@ -49,5 +49,5 @@ Then(/^a list of bookings is extracted from the booking api$/) do
 end
 
 When(/^booking data is extracted from the booking api$/) do
-  @results = BookingBug.new.call
+  @results = BookingBug::Bookings.new.call
 end
