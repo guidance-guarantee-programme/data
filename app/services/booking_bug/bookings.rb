@@ -21,6 +21,10 @@ module BookingBug
             :date_dimension,
             ->(record) { Dimensions::Date.find_by!(date: Date.parse(record['created_at'])) }
           )
+          t.add_field(
+            :lead_time,
+            ->(record) { (Time.zone.parse(record['datetime']) - Time.zone.parse(record['created_at'])).to_i }
+          )
           t.add_key_field(:reference_number, ->(record) { record['id'] })
         end,
         ETL::Loader.new(klass: Facts::Booking),

@@ -9,7 +9,8 @@ Then(/^the booking bug data is ready to be saved$/) do
     expect(TransformBookingDataHelper.structure(booking)).to eq(
       data: {
         date_dimension: Dimensions::Date,
-        audit_dimension: Dimensions::Audit
+        audit_dimension: Dimensions::Audit,
+        lead_time: Fixnum
       },
       keys: {
         reference_number: Fixnum
