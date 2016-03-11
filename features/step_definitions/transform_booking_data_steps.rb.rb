@@ -8,7 +8,8 @@ Then(/^the booking bug data is ready to be saved$/) do
   @results[:records].each do |booking|
     expect(TransformBookingDataHelper.structure(booking)).to eq(
       data: {
-        date_dimension: Dimensions::Date
+        date_dimension: Dimensions::Date,
+        audit_dimension: Dimensions::Audit
       },
       keys: {
         reference_number: Fixnum
