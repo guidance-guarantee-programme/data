@@ -37,6 +37,16 @@ And(/^our stored dataset has date dimensions for the period "([^"]*)" to "([^"]*
   end_date = Date.parse(end_date)
 
   PopulateDateDimension.new(begin_date: begin_date, end_date: end_date).call
+
+  original_find_by = Dimensions::Date.method(:find_by!)
+
+  allow(Dimensions::Date).to receive(:find_by!) do |query|
+    if (begin_date..end_date).cover?(query[:date])
+      original_find_by.call(query)
+    else
+      raise(ActiveRecord::RecordNotFound, "Couldn't find Dimensions::Date")
+    end
+  end
 end
 
 Then(/^errors during the transformation process are logged$/) do

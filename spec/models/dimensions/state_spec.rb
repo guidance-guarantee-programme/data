@@ -3,17 +3,25 @@ require 'rails_helper'
 RSpec.describe Dimensions::State, type: :model do
   it { is_expected.to validate_presence_of(:name) }
 
-  it 'can only have a single default state' do
-    Dimensions::State.create(name: 'apples', default: true)
+  context 'when a default state already exists' do
+    before { described_class.create(name: double, default: true) }
 
-    state = Dimensions::State.new(name: 'apples', default: true)
-    expect(state).not_to be_valid
+    subject { described_class.new(name: 'Completed', default: default) }
+    let(:default) { true }
+
+    specify 'only one default state can exist' do
+      is_expected.to_not be_valid
+    end
   end
 
-  it 'allow multiple non-default states' do
-    Dimensions::State.create(name: 'apples', default: false)
+  context 'when a non default state exists' do
+    before { described_class.create(name: double, default: false) }
 
-    state = Dimensions::State.new(name: 'apples', default: false)
-    expect(state).to be_valid
+    subject { described_class.new(name: 'Completed', default: default) }
+    let(:default) { false }
+
+    specify 'additional non default states can exist' do
+      is_expected.to be_valid
+    end
   end
 end

@@ -1,4 +1,4 @@
-When(/^I query appointments by status between "([^"]*)" and "([^"]*)"$/) do |begin_date, end_date|
+When(/^I query appointments by state between "([^"]*)" and "([^"]*)"$/) do |begin_date, end_date|
   begin_date = Date.parse(begin_date)
   end_date = Date.parse(end_date)
 
@@ -19,16 +19,24 @@ When(/^I query appointments by status between "([^"]*)" and "([^"]*)"$/) do |beg
   end
 end
 
-When(/^appointment data is extracted from the booking api$/) do
-  # build required states first - should this have it's own step??
-  Dimensions::State.create!(name: 'Awaiting Status', default: true)
-  ['No show', 'Incomplete', 'Ineligible', 'Complete'].each do |state_name|
-    Dimensions::State.create!(name: state_name)
+Then(/^I see appointments volumes by state of:$/) do |table|
+  expect(table.hashes).to match_array(@count_by_state)
+end
+
+Given(/^we import booking bug appointment data between "([^"]*)" and "([^"]*)"$/) do |begin_date, end_date|
+  # filter import on date as date dimension is populated from seeds
+  begin_date = Date.parse(begin_date)
+  end_date = Date.parse(end_date)
+
+  original_find_by = Dimensions::Date.method(:find_by!)
+
+  allow(Dimensions::Date).to receive(:find_by!) do |query|
+    if (begin_date..end_date).cover?(query[:date])
+      original_find_by.call(query)
+    else
+      raise(ActiveRecord::RecordNotFound, "Couldn't find Dimensions::Date")
+    end
   end
 
   @results = BookingBug::Appointments.new.call
-end
-
-Then(/^I see appointments volumes by status of:$/) do |table|
-  expect(table.hashes).to match_array(@count_by_state)
 end
