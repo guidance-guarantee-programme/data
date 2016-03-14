@@ -11,5 +11,6 @@ module BookingBug
 
   def call(*args)
     BookingBug::Bookings.new.call(*args)
+    BookingBug::Appointments.new.call(*args)
   end
 end
