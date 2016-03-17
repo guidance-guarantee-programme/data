@@ -6,7 +6,7 @@ module BookingBug
       [
         BookingBugAPI.new(BookingBug.config),
         Filters::IncludeNew.new(db_class: Facts::Booking),
-        Transformations::Booking.new(audit_dimension: audit_dimension),
+        Transformations::BookingBugBooking.new(audit_dimension: audit_dimension),
         -> { ETL::Loader.new(klass: Facts::Booking) },
         -> { ETL::AuditLoader.new(audit_dimension: audit_dimension) }
       ].map(&:call)

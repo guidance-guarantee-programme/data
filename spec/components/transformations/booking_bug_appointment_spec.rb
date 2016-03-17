@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Transformations::Appointment do
+RSpec.describe Transformations::BookingBugAppointment do
   let(:audit_dimension) { instance_double(Dimensions::Audit) }
   subject { described_class.new(audit_dimension: audit_dimension) }
 

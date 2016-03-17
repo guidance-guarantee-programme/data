@@ -8,7 +8,7 @@ module BookingBug
         BookingBugAPI.new(BookingBug.config),
         Filters::ExcludeCancelled.new,
         Filters::IncludeNewOrChanged.new(db_class: Facts::Appointment),
-        Transformations::Appointment.new(audit_dimension: audit_dimension),
+        Transformations::BookingBugAppointment.new(audit_dimension: audit_dimension),
         -> { ETL::Loader.new(klass: Facts::Appointment) },
         -> { ETL::AuditLoader.new(audit_dimension: audit_dimension) }
       ].map(&:call)

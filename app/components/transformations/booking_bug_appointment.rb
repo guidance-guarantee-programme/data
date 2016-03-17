@@ -1,5 +1,5 @@
 module Transformations
-  class Appointment
+  class BookingBugAppointment
     def initialize(audit_dimension:)
       @audit_dimension = audit_dimension
     end
