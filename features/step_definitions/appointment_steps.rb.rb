@@ -3,15 +3,7 @@ Given(/^we import booking bug appointment data between "([^"]*)" and "([^"]*)"$/
   begin_date = Date.parse(begin_date)
   end_date = Date.parse(end_date)
 
-  original_find_by = Dimensions::Date.method(:find_by!)
-
-  allow(Dimensions::Date).to receive(:find_by!) do |query|
-    if (begin_date..end_date).cover?(query[:date])
-      original_find_by.call(query)
-    else
-      raise(ActiveRecord::RecordNotFound, "Couldn't find Dimensions::Date")
-    end
-  end
+  PopulateDateDimension.new(begin_date: begin_date, end_date: end_date).call
 
   @results = BookingBug::Appointments.new.call
 end
