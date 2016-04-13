@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160311163236) do
+ActiveRecord::Schema.define(version: 20160414081421) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -57,6 +57,20 @@ ActiveRecord::Schema.define(version: 20160311163236) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  create_table "dimensions_times", force: :cascade do |t|
+    t.integer  "minute_of_day"
+    t.integer  "minute_of_hour"
+    t.integer  "hour"
+    t.string   "timezone"
+    t.string   "day_part"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+  end
+
+  add_index "dimensions_times", ["day_part"], name: "index_dimensions_times_on_day_part", using: :btree
+  add_index "dimensions_times", ["hour"], name: "index_dimensions_times_on_hour", using: :btree
+  add_index "dimensions_times", ["minute_of_day"], name: "index_dimensions_times_on_minute_of_day", unique: true, using: :btree
 
   create_table "facts_appointments", force: :cascade do |t|
     t.integer  "dimensions_date_id"
