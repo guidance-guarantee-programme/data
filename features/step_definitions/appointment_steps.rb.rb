@@ -1,5 +1,4 @@
 Given(/^we import booking bug appointment data between "([^"]*)" and "([^"]*)"$/) do |begin_date, end_date|
-  # filter import on date as date dimension is populated from seeds
   begin_date = Date.parse(begin_date)
   end_date = Date.parse(end_date)
 
