@@ -10,7 +10,8 @@ Given(/^the booking bug data has new entries since the last extract$/) do
   ]
 
   audit_dimension = Dimensions::Audit.create!(fact_table: 'Bookings', source: 'BookingBug', source_type: 'api')
-  date_dimension = Dimensions::Date.first
+  date_dimension = Dimensions::DateBuilder.new(2016, 1, 1).date_dimension
+  date_dimension.save!
   @created_booking_ids.each do |id|
     Facts::Booking.create!(
       reference_number: id,
