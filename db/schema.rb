@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160414081421) do
+ActiveRecord::Schema.define(version: 20160419104323) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,6 +50,15 @@ ActiveRecord::Schema.define(version: 20160414081421) do
   add_index "dimensions_dates", ["date"], name: "index_dimensions_dates_on_date", unique: true, using: :btree
   add_index "dimensions_dates", ["date_name"], name: "index_dimensions_dates_on_date_name", unique: true, using: :btree
   add_index "dimensions_dates", ["date_name_abbreviated"], name: "index_dimensions_dates_on_date_name_abbreviated", unique: true, using: :btree
+
+  create_table "dimensions_outcomes", force: :cascade do |t|
+    t.string   "name"
+    t.boolean  "successful", default: false
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+  end
+
+  add_index "dimensions_outcomes", ["name"], name: "index_dimensions_outcomes_on_name", unique: true, using: :btree
 
   create_table "dimensions_states", force: :cascade do |t|
     t.string   "name",       null: false
