@@ -10,6 +10,7 @@ gem 'clockwork'
 gem 'faraday'
 gem 'faraday_middleware'
 gem 'foreman'
+gem 'twilio-ruby'
 
 group :development do
   gem 'overcommit', require: false

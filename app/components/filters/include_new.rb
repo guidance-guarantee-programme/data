@@ -1,7 +1,8 @@
 module Filters
   class IncludeNew
-    def initialize(db_class:)
+    def initialize(db_class:, key: 'id')
       @db_class = db_class
+      @key = key
     end
 
     def call
@@ -11,7 +12,7 @@ module Filters
     end
 
     def new(record)
-      !@db_class.exists?(reference_number: record['id'])
+      !@db_class.exists?(reference_number: record[@key])
     end
   end
 end

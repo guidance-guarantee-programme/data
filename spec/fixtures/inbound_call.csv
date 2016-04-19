@@ -1,0 +1,2 @@
+Sid,AccountSid,StartTime,EndTime,Duration,From,To,Direction,Status,ApiVersion,Price,PriceUnit
+CAe3036345e5683a4d9eb86f33bc3a3e95,ACf25cad6726fc71c8ead142f5f85478e4,2016-04-09 06:05:42 PDT,2016-04-09 06:06:38 PDT,56,7,441708208075,Inbound,completed,01/04/2010,-0.0075,USD

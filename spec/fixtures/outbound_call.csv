@@ -1,0 +1,2 @@
+Sid,AccountSid,StartTime,EndTime,Duration,From,To,Direction,Status,ApiVersion,Price,PriceUnit
+CAf4c78e5715842b4eeff669e23bcbc777,ACf25cad6726fc71c8ead142f5f85478e4,2016-04-09 06:06:02 PDT,2016-04-09 06:06:38 PDT,36,7,442032330250,Outbound Dial,completed,01/04/2010,-0.015,USD
