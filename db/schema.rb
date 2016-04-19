@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160419104323) do
+ActiveRecord::Schema.define(version: 20160419145501) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -106,6 +106,25 @@ ActiveRecord::Schema.define(version: 20160419104323) do
   add_index "facts_bookings", ["dimensions_date_id"], name: "index_facts_bookings_on_dimensions_date_id", using: :btree
   add_index "facts_bookings", ["reference_number"], name: "index_facts_bookings_on_reference_number", unique: true, using: :btree
 
+  create_table "facts_calls", force: :cascade do |t|
+    t.integer  "dimensions_audit_id"
+    t.integer  "dimensions_date_id"
+    t.integer  "dimensions_time_id"
+    t.integer  "dimensions_outcome_id"
+    t.integer  "call_time"
+    t.integer  "talk_time"
+    t.integer  "ring_time"
+    t.float    "cost"
+    t.string   "reference_number"
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+  end
+
+  add_index "facts_calls", ["dimensions_audit_id"], name: "index_facts_calls_on_dimensions_audit_id", using: :btree
+  add_index "facts_calls", ["dimensions_date_id"], name: "index_facts_calls_on_dimensions_date_id", using: :btree
+  add_index "facts_calls", ["dimensions_outcome_id"], name: "index_facts_calls_on_dimensions_outcome_id", using: :btree
+  add_index "facts_calls", ["dimensions_time_id"], name: "index_facts_calls_on_dimensions_time_id", using: :btree
+
   create_table "facts_cancelled_bookings", force: :cascade do |t|
     t.integer  "dimensions_date_id"
     t.integer  "lead_time"
@@ -120,5 +139,9 @@ ActiveRecord::Schema.define(version: 20160419104323) do
 
   add_foreign_key "facts_appointments", "dimensions_dates"
   add_foreign_key "facts_bookings", "dimensions_dates"
+  add_foreign_key "facts_calls", "dimensions_audits"
+  add_foreign_key "facts_calls", "dimensions_dates"
+  add_foreign_key "facts_calls", "dimensions_outcomes"
+  add_foreign_key "facts_calls", "dimensions_times"
   add_foreign_key "facts_cancelled_bookings", "dimensions_dates"
 end
