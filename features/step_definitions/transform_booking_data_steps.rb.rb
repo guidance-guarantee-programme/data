@@ -1,5 +1,5 @@
 When(/^the booking bug data is transformed$/) do
-  @results = BookingBug::Bookings.new.call(actions_to_perform: 3)
+  @results = Providers::BookingBug::Bookings.new.call(actions_to_perform: 3)
 end
 
 Then(/^the booking bug data is ready to be saved$/) do

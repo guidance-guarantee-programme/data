@@ -4,8 +4,8 @@ VCR.configure do |c|
   c.cassette_library_dir = 'features/cassettes'
   c.hook_into :webmock
 
-  BookingBug.config.attributes.each do |attr|
-    c.filter_sensitive_data("<BOOKING_BUG_#{attr.upcase}>") { BookingBug.config.send(attr) }
+  Providers::BookingBug.config.attributes.each do |attr|
+    c.filter_sensitive_data("<BOOKING_BUG_#{attr.upcase}>") { Providers::BookingBug.config.send(attr) }
   end
 end
 

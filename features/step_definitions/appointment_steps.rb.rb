@@ -4,7 +4,7 @@ Given(/^we import booking bug appointment data between "([^"]*)" and "([^"]*)"$/
 
   PopulateDateDimension.new(begin_date: begin_date, end_date: end_date).call
 
-  @results = BookingBug::Appointments.new.call
+  @results = Providers::BookingBug::Appointments.new.call
 end
 
 When(/^I query appointments by state between "([^"]*)" and "([^"]*)"$/) do |begin_date, end_date|

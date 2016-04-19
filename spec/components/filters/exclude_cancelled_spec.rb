@@ -1,5 +1,4 @@
-require 'spec_helper'
-require 'filters/exclude_cancelled'
+require 'rails_helper'
 
 RSpec.describe Filters::ExcludeCancelled do
   subject { described_class.new.call }

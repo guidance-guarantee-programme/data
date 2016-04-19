@@ -1,4 +1,4 @@
-module BookingBug
+module Providers
   class Base
     # Allow subset of actions to be run by specifying the number of actions to be performed.
     # Defaults to all actions
@@ -15,11 +15,11 @@ module BookingBug
       raise ImplementInClass
     end
 
-    def build_audit_dimension(fact_table)
+    def build_audit_dimension(fact_table:, source:, source_type: 'api')
       Dimensions::Audit.create(
         fact_table: fact_table,
-        source: 'BookingBug',
-        source_type: 'api'
+        source: source,
+        source_type: source_type
       )
     end
   end

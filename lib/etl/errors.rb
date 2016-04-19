@@ -4,6 +4,7 @@ module ETL
       yield
     rescue => e
       error_description = [e.class.to_s, e.message].uniq.compact.join(': ')
+      log[error_description] ||= 0
       log[error_description] += 1
       nil
     end
